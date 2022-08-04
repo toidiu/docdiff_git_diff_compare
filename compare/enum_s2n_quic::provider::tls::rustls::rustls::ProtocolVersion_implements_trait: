@@ -1,0 +1,17 @@
+@@ -8608,13 +10180,13 @@ enum s2n_quic::provider::tls::rustls::rustls::ProtocolVersion implements trait:
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::ProtocolVersion
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::ProtocolVersion implements trait:
+-  impl s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Codec for s2n_quic::provider::tls::rustls::rustls::ProtocolVersion
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::ProtocolVersion
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::ProtocolVersion implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::ProtocolVersion
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::ProtocolVersion
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::ProtocolVersion implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::ProtocolVersion
++  impl s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Codec for s2n_quic::provider::tls::rustls::rustls::ProtocolVersion
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::ProtocolVersion exports function:
+   pub fn as_str(&self) -> core::option::Option<&'static str>

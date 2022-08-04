@@ -1,0 +1,17 @@
+@@ -3750,13 +5049,13 @@ struct s2n_quic::provider::event::events::KeyUpdate implements trait:
+   impl core::marker::Unpin for s2n_quic::provider::event::events::KeyUpdate
+ 
+ struct s2n_quic::provider::event::events::KeyUpdate implements trait:
+-  impl s2n_quic::provider::event::Event for s2n_quic::provider::event::events::KeyUpdate
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::event::events::KeyUpdate
+ 
+ struct s2n_quic::provider::event::events::KeyUpdate implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::event::events::KeyUpdate
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::event::events::KeyUpdate
+ 
+ struct s2n_quic::provider::event::events::KeyUpdate implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::event::events::KeyUpdate
++  impl s2n_quic::provider::event::Event for s2n_quic::provider::event::events::KeyUpdate
+ 
+ struct s2n_quic::provider::event::events::KeyUpdate exports field:
+   key_type: s2n_quic::provider::event::events::KeyType

@@ -1,0 +1,23 @@
+@@ -773,19 +1907,19 @@ variant s2n_quic::connection::Error::Closed exports field:
+ 
+ variant s2n_quic::connection::Error::Closed exports field:
+   source:
+-  &'static core::panic::Location<'static>
++  &'static core::panic::location::Location<'static>
+ 
+ variant s2n_quic::connection::Error::EndpointClosing is non-exhaustive
+ 
+ variant s2n_quic::connection::Error::EndpointClosing exports field:
+   source:
+-  &'static core::panic::Location<'static>
++  &'static core::panic::location::Location<'static>
+ 
+ variant s2n_quic::connection::Error::IdleTimerExpired is non-exhaustive
+ 
+ variant s2n_quic::connection::Error::IdleTimerExpired exports field:
+   source:
+-  &'static core::panic::Location<'static>
++  &'static core::panic::location::Location<'static>
+ 
+ variant s2n_quic::connection::Error::ImmediateClose is non-exhaustive
+ 

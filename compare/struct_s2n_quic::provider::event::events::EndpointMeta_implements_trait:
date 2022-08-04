@@ -1,0 +1,17 @@
+@@ -3151,13 +4382,13 @@ struct s2n_quic::provider::event::events::EndpointMeta implements trait:
+   impl core::marker::Unpin for s2n_quic::provider::event::events::EndpointMeta
+ 
+ struct s2n_quic::provider::event::events::EndpointMeta implements trait:
+-  impl s2n_quic::provider::event::Meta for s2n_quic::provider::event::events::EndpointMeta
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::event::events::EndpointMeta
+ 
+ struct s2n_quic::provider::event::events::EndpointMeta implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::event::events::EndpointMeta
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::event::events::EndpointMeta
+ 
+ struct s2n_quic::provider::event::events::EndpointMeta implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::event::events::EndpointMeta
++  impl s2n_quic::provider::event::Meta for s2n_quic::provider::event::events::EndpointMeta
+ 
+ struct s2n_quic::provider::event::events::EndpointMeta exports field:
+   timestamp: s2n_quic::provider::event::Timestamp

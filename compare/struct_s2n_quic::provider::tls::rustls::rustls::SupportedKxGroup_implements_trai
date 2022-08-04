@@ -1,0 +1,13 @@
+@@ -9106,10 +10702,10 @@ struct s2n_quic::provider::tls::rustls::rustls::SupportedKxGroup implements trai
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::SupportedKxGroup
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::SupportedKxGroup implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::SupportedKxGroup
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::SupportedKxGroup
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::SupportedKxGroup implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::SupportedKxGroup
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::SupportedKxGroup
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::SupportedKxGroup exports field:
+   name: s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::NamedGroup

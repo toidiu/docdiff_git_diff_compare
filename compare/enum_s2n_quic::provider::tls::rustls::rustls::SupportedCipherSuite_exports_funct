@@ -1,0 +1,15 @@
+@@ -9093,6 +10681,14 @@ enum s2n_quic::provider::tls::rustls::rustls::SupportedCipherSuite exports funct
+ enum s2n_quic::provider::tls::rustls::rustls::SupportedCipherSuite exports function:
+   pub fn version(&self) -> &'static s2n_quic::provider::tls::rustls::rustls::SupportedProtocolVersion
+ 
++variant s2n_quic::provider::tls::rustls::rustls::SupportedCipherSuite::Tls12 exports field:
++  0:
++  &'static s2n_quic::provider::tls::rustls::rustls::Tls12CipherSuite
++
++variant s2n_quic::provider::tls::rustls::rustls::SupportedCipherSuite::Tls13 exports field:
++  0:
++  &'static s2n_quic::provider::tls::rustls::rustls::Tls13CipherSuite
++
+ struct s2n_quic::provider::tls::rustls::rustls::SupportedKxGroup implements trait:
+   impl core::fmt::Debug for s2n_quic::provider::tls::rustls::rustls::SupportedKxGroup
+ 

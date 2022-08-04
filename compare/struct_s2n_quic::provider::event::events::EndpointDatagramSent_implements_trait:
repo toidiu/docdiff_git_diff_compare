@@ -1,0 +1,17 @@
+@@ -3116,13 +4347,13 @@ struct s2n_quic::provider::event::events::EndpointDatagramSent implements trait:
+   impl core::marker::Unpin for s2n_quic::provider::event::events::EndpointDatagramSent
+ 
+ struct s2n_quic::provider::event::events::EndpointDatagramSent implements trait:
+-  impl s2n_quic::provider::event::Event for s2n_quic::provider::event::events::EndpointDatagramSent
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::event::events::EndpointDatagramSent
+ 
+ struct s2n_quic::provider::event::events::EndpointDatagramSent implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::event::events::EndpointDatagramSent
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::event::events::EndpointDatagramSent
+ 
+ struct s2n_quic::provider::event::events::EndpointDatagramSent implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::event::events::EndpointDatagramSent
++  impl s2n_quic::provider::event::Event for s2n_quic::provider::event::events::EndpointDatagramSent
+ 
+ struct s2n_quic::provider::event::events::EndpointDatagramSent exports field:
+   len: u16

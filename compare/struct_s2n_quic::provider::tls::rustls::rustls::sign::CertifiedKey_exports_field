@@ -1,0 +1,13 @@
+@@ -15994,10 +17973,10 @@ struct s2n_quic::provider::tls::rustls::rustls::sign::CertifiedKey exports field
+   cert: alloc::vec::Vec<s2n_quic::provider::tls::rustls::Certificate, alloc::alloc::Global>
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::sign::CertifiedKey implements trait:
+-  impl !std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::sign::CertifiedKey
++  impl !core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::sign::CertifiedKey
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::sign::CertifiedKey implements trait:
+-  impl !std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::sign::CertifiedKey
++  impl !core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::sign::CertifiedKey
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::sign::CertifiedKey implements trait:
+   impl core::clone::Clone for s2n_quic::provider::tls::rustls::rustls::sign::CertifiedKey

@@ -1,0 +1,13 @@
+@@ -15374,10 +17355,10 @@ struct s2n_quic::provider::tls::rustls::rustls::quic::PacketKey implements trait
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::quic::PacketKey
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::quic::PacketKey implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::quic::PacketKey
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::quic::PacketKey
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::quic::PacketKey implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::quic::PacketKey
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::quic::PacketKey
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::quic::PacketKey exports function:
+   pub fn confidentiality_limit(&self) -> u64

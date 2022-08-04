@@ -1,0 +1,17 @@
+@@ -15027,13 +17008,13 @@ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::persist::ServerS
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::internal::msgs::persist::ServerSessionValue
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::persist::ServerSessionValue implements trait:
+-  impl s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Codec for s2n_quic::provider::tls::rustls::rustls::internal::msgs::persist::ServerSessionValue
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::persist::ServerSessionValue
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::persist::ServerSessionValue implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::persist::ServerSessionValue
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::persist::ServerSessionValue
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::persist::ServerSessionValue implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::persist::ServerSessionValue
++  impl s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Codec for s2n_quic::provider::tls::rustls::rustls::internal::msgs::persist::ServerSessionValue
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::persist::ServerSessionValue exports field:
+   master_secret: s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU8

@@ -1,0 +1,9 @@
+@@ -763,7 +1897,7 @@ variant s2n_quic::connection::Error::Application exports field:
+ 
+ variant s2n_quic::connection::Error::Application exports field:
+   source:
+-  &'static core::panic::Location<'static>
++  &'static core::panic::location::Location<'static>
+ 
+ variant s2n_quic::connection::Error::Closed is non-exhaustive
+ 

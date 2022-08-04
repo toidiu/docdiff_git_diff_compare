@@ -1,0 +1,13 @@
+@@ -9701,10 +11305,10 @@ struct s2n_quic::provider::tls::rustls::rustls::client::WantsClientCert implemen
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::client::WantsClientCert
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::client::WantsTransparencyPolicyOrClientCert implements trait:
+-  impl !std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::client::WantsTransparencyPolicyOrClientCert
++  impl !core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::client::WantsTransparencyPolicyOrClientCert
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::client::WantsTransparencyPolicyOrClientCert implements trait:
+-  impl !std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::client::WantsTransparencyPolicyOrClientCert
++  impl !core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::client::WantsTransparencyPolicyOrClientCert
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::client::WantsTransparencyPolicyOrClientCert implements trait:
+   impl core::clone::Clone for s2n_quic::provider::tls::rustls::rustls::client::WantsTransparencyPolicyOrClientCert

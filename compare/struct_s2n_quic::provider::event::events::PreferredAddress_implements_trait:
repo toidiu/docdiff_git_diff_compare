@@ -1,0 +1,13 @@
+@@ -4612,10 +5987,10 @@ struct s2n_quic::provider::event::events::PreferredAddress implements trait:
+   impl<'a> core::marker::Unpin for s2n_quic::provider::event::events::PreferredAddress<'a>
+ 
+ struct s2n_quic::provider::event::events::PreferredAddress implements trait:
+-  impl<'a> std::panic::RefUnwindSafe for s2n_quic::provider::event::events::PreferredAddress<'a>
++  impl<'a> core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::event::events::PreferredAddress<'a>
+ 
+ struct s2n_quic::provider::event::events::PreferredAddress implements trait:
+-  impl<'a> std::panic::UnwindSafe for s2n_quic::provider::event::events::PreferredAddress<'a>
++  impl<'a> core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::event::events::PreferredAddress<'a>
+ 
+ struct s2n_quic::provider::event::events::PreferredAddress exports field:
+   ipv4_address: core::option::Option<s2n_quic::provider::event::events::SocketAddress<'a>>

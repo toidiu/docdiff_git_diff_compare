@@ -1,0 +1,13 @@
+@@ -15282,10 +17263,10 @@ struct s2n_quic::provider::tls::rustls::rustls::quic::HeaderProtectionKey implem
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::quic::HeaderProtectionKey
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::quic::HeaderProtectionKey implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::quic::HeaderProtectionKey
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::quic::HeaderProtectionKey
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::quic::HeaderProtectionKey implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::quic::HeaderProtectionKey
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::quic::HeaderProtectionKey
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::quic::HeaderProtectionKey exports function:
+   pub fn decrypt_in_place(

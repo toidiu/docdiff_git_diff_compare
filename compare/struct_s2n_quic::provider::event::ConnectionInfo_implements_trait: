@@ -1,0 +1,13 @@
+@@ -1771,10 +2912,10 @@ struct s2n_quic::provider::event::ConnectionInfo implements trait:
+   impl core::marker::Unpin for s2n_quic::provider::event::ConnectionInfo
+ 
+ struct s2n_quic::provider::event::ConnectionInfo implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::event::ConnectionInfo
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::event::ConnectionInfo
+ 
+ struct s2n_quic::provider::event::ConnectionInfo implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::event::ConnectionInfo
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::event::ConnectionInfo
+ 
+ struct s2n_quic::provider::event::ConnectionMeta is non-exhaustive
+ 

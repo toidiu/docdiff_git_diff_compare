@@ -1,0 +1,13 @@
+@@ -9148,10 +10744,10 @@ struct s2n_quic::provider::tls::rustls::rustls::Ticketer implements trait:
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::Ticketer
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::Ticketer implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::Ticketer
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::Ticketer
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::Ticketer implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::Ticketer
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::Ticketer
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::Ticketer exports function:
+   pub fn new() -> core::result::Result<alloc::sync::Arc<dyn s2n_quic::provider::tls::rustls::rustls::server::ProducesTickets + 'static>, s2n_quic::provider::tls::rustls::rustls::Error>

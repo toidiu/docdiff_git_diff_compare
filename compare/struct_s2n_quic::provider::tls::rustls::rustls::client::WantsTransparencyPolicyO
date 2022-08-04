@@ -1,0 +1,13 @@
+@@ -9722,10 +11326,10 @@ struct s2n_quic::provider::tls::rustls::rustls::client::WantsTransparencyPolicyO
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::client::WantsTransparencyPolicyOrClientCert
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::client::WriteEarlyData implements trait:
+-  impl<'a> !std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::client::WriteEarlyData<'a>
++  impl<'a> !core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::client::WriteEarlyData<'a>
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::client::WriteEarlyData implements trait:
+-  impl<'a> !std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::client::WriteEarlyData<'a>
++  impl<'a> !core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::client::WriteEarlyData<'a>
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::client::WriteEarlyData implements trait:
+   impl<'a> core::marker::Send for s2n_quic::provider::tls::rustls::rustls::client::WriteEarlyData<'a>

@@ -1,0 +1,16 @@
+@@ -14160,10 +16062,13 @@ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::Presh
+   binder: alloc::vec::Vec<u8, alloc::alloc::Global>) -> s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::PresharedKeyOffer
+ 
+ typedef s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ProtocolNameList exports typedef:
+-  type ProtocolNameList = alloc::vec::Vec<s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU8, alloc::alloc::Global>;
++  pub type ProtocolNameList = alloc::vec::Vec<s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU8, alloc::alloc::Global>;
+ 
+ typedef s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ProtocolVersions exports typedef:
+-  type ProtocolVersions = alloc::vec::Vec<s2n_quic::provider::tls::rustls::rustls::ProtocolVersion, alloc::alloc::Global>;
++  pub type ProtocolVersions = alloc::vec::Vec<s2n_quic::provider::tls::rustls::rustls::ProtocolVersion, alloc::alloc::Global>;
++
++struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::Random exports field:
++  0: [u8; 32]
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::Random implements trait:
+   impl core::clone::Clone for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::Random

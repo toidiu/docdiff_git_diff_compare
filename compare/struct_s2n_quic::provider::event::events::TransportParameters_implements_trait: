@@ -1,0 +1,13 @@
+@@ -5018,10 +6518,10 @@ struct s2n_quic::provider::event::events::TransportParameters implements trait:
+   impl<'a> core::marker::Unpin for s2n_quic::provider::event::events::TransportParameters<'a>
+ 
+ struct s2n_quic::provider::event::events::TransportParameters implements trait:
+-  impl<'a> std::panic::RefUnwindSafe for s2n_quic::provider::event::events::TransportParameters<'a>
++  impl<'a> core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::event::events::TransportParameters<'a>
+ 
+ struct s2n_quic::provider::event::events::TransportParameters implements trait:
+-  impl<'a> std::panic::UnwindSafe for s2n_quic::provider::event::events::TransportParameters<'a>
++  impl<'a> core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::event::events::TransportParameters<'a>
+ 
+ struct s2n_quic::provider::event::events::TransportParameters exports field:
+   initial_max_stream_data_bidi_local: u64

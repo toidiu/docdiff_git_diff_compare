@@ -1,0 +1,13 @@
+@@ -4179,10 +5554,10 @@ struct s2n_quic::provider::event::events::Path implements trait:
+   impl<'a> core::marker::Unpin for s2n_quic::provider::event::events::Path<'a>
+ 
+ struct s2n_quic::provider::event::events::Path implements trait:
+-  impl<'a> std::panic::RefUnwindSafe for s2n_quic::provider::event::events::Path<'a>
++  impl<'a> core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::event::events::Path<'a>
+ 
+ struct s2n_quic::provider::event::events::Path implements trait:
+-  impl<'a> std::panic::UnwindSafe for s2n_quic::provider::event::events::Path<'a>
++  impl<'a> core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::event::events::Path<'a>
+ 
+ struct s2n_quic::provider::event::events::Path exports field:
+   is_active: bool

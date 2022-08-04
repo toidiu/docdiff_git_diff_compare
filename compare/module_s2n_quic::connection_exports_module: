@@ -1,0 +1,13 @@
+@@ -524,10 +1651,10 @@ module s2n_quic::connection exports module:
+   s2n_quic::connection::error
+ 
+ struct s2n_quic::connection::BidirectionalStreamAcceptor implements trait:
+-  impl !std::panic::RefUnwindSafe for s2n_quic::connection::BidirectionalStreamAcceptor
++  impl !core::panic::unwind_safe::RefUnwindSafe for s2n_quic::connection::BidirectionalStreamAcceptor
+ 
+ struct s2n_quic::connection::BidirectionalStreamAcceptor implements trait:
+-  impl !std::panic::UnwindSafe for s2n_quic::connection::BidirectionalStreamAcceptor
++  impl !core::panic::unwind_safe::UnwindSafe for s2n_quic::connection::BidirectionalStreamAcceptor
+ 
+ struct s2n_quic::connection::BidirectionalStreamAcceptor implements trait:
+   impl core::fmt::Debug for s2n_quic::connection::BidirectionalStreamAcceptor

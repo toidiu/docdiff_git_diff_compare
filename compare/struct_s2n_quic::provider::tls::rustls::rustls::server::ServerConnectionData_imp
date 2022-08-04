@@ -1,0 +1,13 @@
+@@ -15907,10 +17886,10 @@ struct s2n_quic::provider::tls::rustls::rustls::server::ServerConnectionData imp
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::server::ServerConnectionData
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::server::ServerConnectionData implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::server::ServerConnectionData
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::server::ServerConnectionData
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::server::ServerConnectionData implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::server::ServerConnectionData
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::server::ServerConnectionData
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::server::ServerSessionMemoryCache implements trait:
+   impl core::marker::Send for s2n_quic::provider::tls::rustls::rustls::server::ServerSessionMemoryCache

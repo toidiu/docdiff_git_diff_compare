@@ -1,0 +1,13 @@
+@@ -4408,10 +5783,10 @@ enum s2n_quic::provider::event::events::PlatformFeatureConfiguration implements
+   impl core::marker::Unpin for s2n_quic::provider::event::events::PlatformFeatureConfiguration
+ 
+ enum s2n_quic::provider::event::events::PlatformFeatureConfiguration implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::event::events::PlatformFeatureConfiguration
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::event::events::PlatformFeatureConfiguration
+ 
+ enum s2n_quic::provider::event::events::PlatformFeatureConfiguration implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::event::events::PlatformFeatureConfiguration
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::event::events::PlatformFeatureConfiguration
+ 
+ variant s2n_quic::provider::event::events::PlatformFeatureConfiguration::Ecn is non-exhaustive
+ 

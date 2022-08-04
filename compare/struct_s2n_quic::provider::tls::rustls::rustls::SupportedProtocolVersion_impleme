@@ -1,0 +1,13 @@
+@@ -9130,10 +10726,10 @@ struct s2n_quic::provider::tls::rustls::rustls::SupportedProtocolVersion impleme
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::SupportedProtocolVersion
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::SupportedProtocolVersion implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::SupportedProtocolVersion
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::SupportedProtocolVersion
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::SupportedProtocolVersion implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::SupportedProtocolVersion
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::SupportedProtocolVersion
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::SupportedProtocolVersion exports field:
+   version: s2n_quic::provider::tls::rustls::rustls::ProtocolVersion

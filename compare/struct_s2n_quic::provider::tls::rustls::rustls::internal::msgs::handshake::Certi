@@ -1,0 +1,17 @@
+@@ -13240,13 +14974,13 @@ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::Certi
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertificateStatus
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertificateStatus implements trait:
+-  impl s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Codec for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertificateStatus
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertificateStatus
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertificateStatus implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertificateStatus
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertificateStatus
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertificateStatus implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertificateStatus
++  impl s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Codec for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertificateStatus
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertificateStatus exports field:
+   ocsp_response: s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU24

@@ -1,0 +1,13 @@
+@@ -10127,10 +11746,10 @@ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::deframer::Messag
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::internal::msgs::deframer::MessageDeframer
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::deframer::MessageDeframer implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::deframer::MessageDeframer
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::deframer::MessageDeframer
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::deframer::MessageDeframer implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::deframer::MessageDeframer
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::deframer::MessageDeframer
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::deframer::MessageDeframer exports function:
+   pub fn has_pending(&self) -> bool

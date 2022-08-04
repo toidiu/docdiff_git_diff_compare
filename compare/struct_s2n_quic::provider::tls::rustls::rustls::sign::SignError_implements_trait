@@ -1,0 +1,33 @@
+@@ -16044,25 +18023,25 @@ struct s2n_quic::provider::tls::rustls::rustls::sign::SignError implements trait
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::sign::SignError
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::sign::SignError implements trait:
+-  impl std::error::Error for s2n_quic::provider::tls::rustls::rustls::sign::SignError
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::sign::SignError
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::sign::SignError implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::sign::SignError
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::sign::SignError
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::sign::SignError implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::sign::SignError
++  impl std::error::Error for s2n_quic::provider::tls::rustls::rustls::sign::SignError
+ 
+ trait s2n_quic::provider::tls::rustls::rustls::sign::Signer exports function:
+-  pub fn scheme(&self) -> s2n_quic::provider::tls::rustls::rustls::SignatureScheme
++  fn scheme(&self) -> s2n_quic::provider::tls::rustls::rustls::SignatureScheme
+ 
+ trait s2n_quic::provider::tls::rustls::rustls::sign::Signer exports function:
+-  pub fn sign(&self, message: &[u8]) -> core::result::Result<alloc::vec::Vec<u8, alloc::alloc::Global>, s2n_quic::provider::tls::rustls::rustls::Error>
++  fn sign(&self, message: &[u8]) -> core::result::Result<alloc::vec::Vec<u8, alloc::alloc::Global>, s2n_quic::provider::tls::rustls::rustls::Error>
+ 
+ trait s2n_quic::provider::tls::rustls::rustls::sign::SigningKey exports function:
+-  pub fn algorithm(&self) -> s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::SignatureAlgorithm
++  fn algorithm(&self) -> s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::SignatureAlgorithm
+ 
+ trait s2n_quic::provider::tls::rustls::rustls::sign::SigningKey exports function:
+-  pub fn choose_scheme(
++  fn choose_scheme(
+   &self,
+   offered: &[s2n_quic::provider::tls::rustls::rustls::SignatureScheme]) -> core::option::Option<alloc::boxed::Box<dyn s2n_quic::provider::tls::rustls::rustls::sign::Signer + 'static, alloc::alloc::Global>>
+ 

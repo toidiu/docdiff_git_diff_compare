@@ -1,0 +1,44 @@
+@@ -15922,34 +17901,34 @@ struct s2n_quic::provider::tls::rustls::rustls::server::ServerSessionMemoryCache
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::server::ServerSessionMemoryCache
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::server::ServerSessionMemoryCache implements trait:
+-  impl s2n_quic::provider::tls::rustls::rustls::server::StoresServerSessions for s2n_quic::provider::tls::rustls::rustls::server::ServerSessionMemoryCache
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::server::ServerSessionMemoryCache
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::server::ServerSessionMemoryCache implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::server::ServerSessionMemoryCache
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::server::ServerSessionMemoryCache
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::server::ServerSessionMemoryCache implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::server::ServerSessionMemoryCache
++  impl s2n_quic::provider::tls::rustls::rustls::server::StoresServerSessions for s2n_quic::provider::tls::rustls::rustls::server::ServerSessionMemoryCache
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::server::ServerSessionMemoryCache exports function:
+   pub fn new(size: usize) -> alloc::sync::Arc<s2n_quic::provider::tls::rustls::rustls::server::ServerSessionMemoryCache>
+ 
+ trait s2n_quic::provider::tls::rustls::rustls::server::StoresServerSessions exports function:
+-  pub fn can_cache(&self) -> bool
++  fn can_cache(&self) -> bool
+ 
+ trait s2n_quic::provider::tls::rustls::rustls::server::StoresServerSessions exports function:
+-  pub fn get(&self, key: &[u8]) -> core::option::Option<alloc::vec::Vec<u8, alloc::alloc::Global>>
++  fn get(&self, key: &[u8]) -> core::option::Option<alloc::vec::Vec<u8, alloc::alloc::Global>>
+ 
+ trait s2n_quic::provider::tls::rustls::rustls::server::StoresServerSessions exports function:
+-  pub fn put(&self, key: alloc::vec::Vec<u8, alloc::alloc::Global>, value: alloc::vec::Vec<u8, alloc::alloc::Global>) -> bool
++  fn put(&self, key: alloc::vec::Vec<u8, alloc::alloc::Global>, value: alloc::vec::Vec<u8, alloc::alloc::Global>) -> bool
+ 
+ trait s2n_quic::provider::tls::rustls::rustls::server::StoresServerSessions exports function:
+-  pub fn take(&self, key: &[u8]) -> core::option::Option<alloc::vec::Vec<u8, alloc::alloc::Global>>
++  fn take(&self, key: &[u8]) -> core::option::Option<alloc::vec::Vec<u8, alloc::alloc::Global>>
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::server::WantsServerCert implements trait:
+-  impl !std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::server::WantsServerCert
++  impl !core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::server::WantsServerCert
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::server::WantsServerCert implements trait:
+-  impl !std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::server::WantsServerCert
++  impl !core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::server::WantsServerCert
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::server::WantsServerCert implements trait:
+   impl core::clone::Clone for s2n_quic::provider::tls::rustls::rustls::server::WantsServerCert

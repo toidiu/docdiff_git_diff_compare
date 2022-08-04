@@ -1,0 +1,21 @@
+@@ -9259,16 +10855,16 @@ struct s2n_quic::provider::tls::rustls::rustls::WantsCipherSuites implements tra
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::WantsCipherSuites
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::WantsCipherSuites implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::WantsCipherSuites
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::WantsCipherSuites
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::WantsCipherSuites implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::WantsCipherSuites
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::WantsCipherSuites
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::WantsKxGroups implements trait:
+-  impl !std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::WantsKxGroups
++  impl !core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::WantsKxGroups
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::WantsKxGroups implements trait:
+-  impl !std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::WantsKxGroups
++  impl !core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::WantsKxGroups
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::WantsKxGroups implements trait:
+   impl core::clone::Clone for s2n_quic::provider::tls::rustls::rustls::WantsKxGroups

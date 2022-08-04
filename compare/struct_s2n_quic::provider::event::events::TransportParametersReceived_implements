@@ -1,0 +1,17 @@
+@@ -5086,13 +6586,13 @@ struct s2n_quic::provider::event::events::TransportParametersReceived implements
+   impl<'a> core::marker::Unpin for s2n_quic::provider::event::events::TransportParametersReceived<'a>
+ 
+ struct s2n_quic::provider::event::events::TransportParametersReceived implements trait:
+-  impl<'a> s2n_quic::provider::event::Event for s2n_quic::provider::event::events::TransportParametersReceived<'a>
++  impl<'a> core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::event::events::TransportParametersReceived<'a>
+ 
+ struct s2n_quic::provider::event::events::TransportParametersReceived implements trait:
+-  impl<'a> std::panic::RefUnwindSafe for s2n_quic::provider::event::events::TransportParametersReceived<'a>
++  impl<'a> core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::event::events::TransportParametersReceived<'a>
+ 
+ struct s2n_quic::provider::event::events::TransportParametersReceived implements trait:
+-  impl<'a> std::panic::UnwindSafe for s2n_quic::provider::event::events::TransportParametersReceived<'a>
++  impl<'a> s2n_quic::provider::event::Event for s2n_quic::provider::event::events::TransportParametersReceived<'a>
+ 
+ struct s2n_quic::provider::event::events::TransportParametersReceived exports constant:
+   pub const NAME: &'static str

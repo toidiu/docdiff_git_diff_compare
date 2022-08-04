@@ -1,0 +1,25 @@
+@@ -6361,19 +7887,19 @@ struct s2n_quic::provider::tls::rustls::certificate::Certificate implements trai
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::certificate::Certificate
+ 
+ struct s2n_quic::provider::tls::rustls::certificate::Certificate implements trait:
+-  impl s2n_quic::provider::tls::rustls::certificate::IntoCertificate for s2n_quic::provider::tls::rustls::certificate::Certificate
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::certificate::Certificate
+ 
+ struct s2n_quic::provider::tls::rustls::certificate::Certificate implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::certificate::Certificate
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::certificate::Certificate
+ 
+ struct s2n_quic::provider::tls::rustls::certificate::Certificate implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::certificate::Certificate
++  impl s2n_quic::provider::tls::rustls::certificate::IntoCertificate for s2n_quic::provider::tls::rustls::certificate::Certificate
+ 
+ trait s2n_quic::provider::tls::rustls::certificate::IntoCertificate exports function:
+-  pub fn into_certificate(self) -> core::result::Result<s2n_quic::provider::tls::rustls::certificate::Certificate, s2n_quic::provider::tls::rustls::rustls::Error>
++  fn into_certificate(self) -> core::result::Result<s2n_quic::provider::tls::rustls::certificate::Certificate, s2n_quic::provider::tls::rustls::rustls::Error>
+ 
+ trait s2n_quic::provider::tls::rustls::certificate::IntoPrivateKey exports function:
+-  pub fn into_private_key(self) -> core::result::Result<s2n_quic::provider::tls::rustls::certificate::PrivateKey, s2n_quic::provider::tls::rustls::rustls::Error>
++  fn into_private_key(self) -> core::result::Result<s2n_quic::provider::tls::rustls::certificate::PrivateKey, s2n_quic::provider::tls::rustls::rustls::Error>
+ 
+ struct s2n_quic::provider::tls::rustls::certificate::PrivateKey implements trait:
+   impl core::marker::Send for s2n_quic::provider::tls::rustls::certificate::PrivateKey

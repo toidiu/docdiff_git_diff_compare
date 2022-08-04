@@ -1,0 +1,9 @@
+@@ -14991,7 +16972,7 @@ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::persist::Retriev
+   value: T
+ 
+ typedef s2n_quic::provider::tls::rustls::rustls::internal::msgs::persist::ServerSessionKey exports typedef:
+-  type ServerSessionKey = s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::SessionID;
++  pub type ServerSessionKey = s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::SessionID;
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::persist::ServerSessionValue exports field:
+   age_obfuscation_offset: u32

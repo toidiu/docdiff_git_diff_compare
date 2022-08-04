@@ -1,0 +1,13 @@
+@@ -3530,10 +4829,10 @@ enum s2n_quic::provider::event::events::HandshakeStatus implements trait:
+   impl core::marker::Unpin for s2n_quic::provider::event::events::HandshakeStatus
+ 
+ enum s2n_quic::provider::event::events::HandshakeStatus implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::event::events::HandshakeStatus
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::event::events::HandshakeStatus
+ 
+ enum s2n_quic::provider::event::events::HandshakeStatus implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::event::events::HandshakeStatus
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::event::events::HandshakeStatus
+ 
+ variant s2n_quic::provider::event::events::HandshakeStatus::Complete is non-exhaustive
+ 

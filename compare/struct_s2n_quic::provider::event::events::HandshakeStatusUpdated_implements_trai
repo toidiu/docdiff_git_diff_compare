@@ -1,0 +1,17 @@
+@@ -3561,13 +4860,13 @@ struct s2n_quic::provider::event::events::HandshakeStatusUpdated implements trai
+   impl core::marker::Unpin for s2n_quic::provider::event::events::HandshakeStatusUpdated
+ 
+ struct s2n_quic::provider::event::events::HandshakeStatusUpdated implements trait:
+-  impl s2n_quic::provider::event::Event for s2n_quic::provider::event::events::HandshakeStatusUpdated
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::event::events::HandshakeStatusUpdated
+ 
+ struct s2n_quic::provider::event::events::HandshakeStatusUpdated implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::event::events::HandshakeStatusUpdated
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::event::events::HandshakeStatusUpdated
+ 
+ struct s2n_quic::provider::event::events::HandshakeStatusUpdated implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::event::events::HandshakeStatusUpdated
++  impl s2n_quic::provider::event::Event for s2n_quic::provider::event::events::HandshakeStatusUpdated
+ 
+ struct s2n_quic::provider::event::events::HandshakeStatusUpdated exports constant:
+   pub const NAME: &'static str

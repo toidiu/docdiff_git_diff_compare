@@ -1,0 +1,13 @@
+@@ -1567,10 +2708,10 @@ struct s2n_quic::provider::endpoint_limits::ConnectionAttempt implements trait:
+   impl<'a> core::marker::Unpin for s2n_quic::provider::endpoint_limits::ConnectionAttempt<'a>
+ 
+ struct s2n_quic::provider::endpoint_limits::ConnectionAttempt implements trait:
+-  impl<'a> std::panic::RefUnwindSafe for s2n_quic::provider::endpoint_limits::ConnectionAttempt<'a>
++  impl<'a> core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::endpoint_limits::ConnectionAttempt<'a>
+ 
+ struct s2n_quic::provider::endpoint_limits::ConnectionAttempt implements trait:
+-  impl<'a> std::panic::UnwindSafe for s2n_quic::provider::endpoint_limits::ConnectionAttempt<'a>
++  impl<'a> core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::endpoint_limits::ConnectionAttempt<'a>
+ 
+ struct s2n_quic::provider::endpoint_limits::ConnectionAttempt exports field:
+   inflight_handshakes: usize

@@ -1,0 +1,13 @@
+@@ -5330,10 +6829,10 @@ struct s2n_quic::provider::event::supervisor::Context implements trait:
+   impl<'a> core::marker::Unpin for s2n_quic::provider::event::supervisor::Context<'a>
+ 
+ struct s2n_quic::provider::event::supervisor::Context implements trait:
+-  impl<'a> std::panic::RefUnwindSafe for s2n_quic::provider::event::supervisor::Context<'a>
++  impl<'a> core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::event::supervisor::Context<'a>
+ 
+ struct s2n_quic::provider::event::supervisor::Context implements trait:
+-  impl<'a> std::panic::UnwindSafe for s2n_quic::provider::event::supervisor::Context<'a>
++  impl<'a> core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::event::supervisor::Context<'a>
+ 
+ struct s2n_quic::provider::event::supervisor::Context exports field:
+   inflight_handshakes: usize

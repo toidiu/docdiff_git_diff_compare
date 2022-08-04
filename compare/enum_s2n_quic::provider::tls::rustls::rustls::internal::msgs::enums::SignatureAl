@@ -1,0 +1,25 @@
+@@ -12662,17 +14361,21 @@ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::SignatureAl
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::SignatureAlgorithm
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::SignatureAlgorithm implements trait:
+-  impl s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Codec for s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::SignatureAlgorithm
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::SignatureAlgorithm
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::SignatureAlgorithm implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::SignatureAlgorithm
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::SignatureAlgorithm
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::SignatureAlgorithm implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::SignatureAlgorithm
++  impl s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Codec for s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::SignatureAlgorithm
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::SignatureAlgorithm exports function:
+   pub fn get_u8(&self) -> u8
+ 
++variant s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::SignatureAlgorithm::Unknown exports field:
++  0:
++  u8
++
+ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::SignatureScheme exports variant:
+   ECDSA_NISTP256_SHA256
+ 

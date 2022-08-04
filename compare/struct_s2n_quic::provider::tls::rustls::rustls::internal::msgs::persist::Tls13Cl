@@ -1,0 +1,13 @@
+@@ -15152,10 +17133,10 @@ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::persist::Tls13Cl
+   impl core::ops::deref::Deref for s2n_quic::provider::tls::rustls::rustls::internal::msgs::persist::Tls13ClientSessionValue
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::persist::Tls13ClientSessionValue implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::persist::Tls13ClientSessionValue
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::persist::Tls13ClientSessionValue
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::persist::Tls13ClientSessionValue implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::persist::Tls13ClientSessionValue
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::persist::Tls13ClientSessionValue
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::persist::Tls13ClientSessionValue exports function:
+   pub fn get_encoding(&self) -> alloc::vec::Vec<u8, alloc::alloc::Global>

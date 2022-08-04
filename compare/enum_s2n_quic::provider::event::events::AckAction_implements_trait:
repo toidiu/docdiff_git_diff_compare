@@ -1,0 +1,13 @@
+@@ -2208,10 +3369,10 @@ enum s2n_quic::provider::event::events::AckAction implements trait:
+   impl core::marker::Unpin for s2n_quic::provider::event::events::AckAction
+ 
+ enum s2n_quic::provider::event::events::AckAction implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::event::events::AckAction
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::event::events::AckAction
+ 
+ enum s2n_quic::provider::event::events::AckAction implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::event::events::AckAction
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::event::events::AckAction
+ 
+ variant s2n_quic::provider::event::events::AckAction::RxAckRangeDropped is non-exhaustive
+ 

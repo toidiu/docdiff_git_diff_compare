@@ -1,0 +1,13 @@
+@@ -17171,10 +19152,10 @@ enum s2n_quic::stream::LocalStream exports variant:
+   Send(s2n_quic::stream::SendStream)
+ 
+ enum s2n_quic::stream::LocalStream implements trait:
+-  impl !std::panic::RefUnwindSafe for s2n_quic::stream::LocalStream
++  impl !core::panic::unwind_safe::RefUnwindSafe for s2n_quic::stream::LocalStream
+ 
+ enum s2n_quic::stream::LocalStream implements trait:
+-  impl !std::panic::UnwindSafe for s2n_quic::stream::LocalStream
++  impl !core::panic::unwind_safe::UnwindSafe for s2n_quic::stream::LocalStream
+ 
+ enum s2n_quic::stream::LocalStream implements trait:
+   impl core::convert::From<s2n_quic::stream::BidirectionalStream> for s2n_quic::stream::LocalStream

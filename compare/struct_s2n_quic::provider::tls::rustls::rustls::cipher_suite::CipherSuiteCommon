@@ -1,0 +1,13 @@
+@@ -9388,10 +10984,10 @@ struct s2n_quic::provider::tls::rustls::rustls::cipher_suite::CipherSuiteCommon
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::cipher_suite::CipherSuiteCommon
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::cipher_suite::CipherSuiteCommon implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::cipher_suite::CipherSuiteCommon
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::cipher_suite::CipherSuiteCommon
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::cipher_suite::CipherSuiteCommon implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::cipher_suite::CipherSuiteCommon
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::cipher_suite::CipherSuiteCommon
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::cipher_suite::CipherSuiteCommon exports field:
+   suite: s2n_quic::provider::tls::rustls::rustls::CipherSuite

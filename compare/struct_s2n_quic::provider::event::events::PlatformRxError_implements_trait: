@@ -1,0 +1,17 @@
+@@ -4516,13 +5891,13 @@ struct s2n_quic::provider::event::events::PlatformRxError implements trait:
+   impl core::marker::Unpin for s2n_quic::provider::event::events::PlatformRxError
+ 
+ struct s2n_quic::provider::event::events::PlatformRxError implements trait:
+-  impl s2n_quic::provider::event::Event for s2n_quic::provider::event::events::PlatformRxError
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::event::events::PlatformRxError
+ 
+ struct s2n_quic::provider::event::events::PlatformRxError implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::event::events::PlatformRxError
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::event::events::PlatformRxError
+ 
+ struct s2n_quic::provider::event::events::PlatformRxError implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::event::events::PlatformRxError
++  impl s2n_quic::provider::event::Event for s2n_quic::provider::event::events::PlatformRxError
+ 
+ struct s2n_quic::provider::event::events::PlatformRxError exports constant:
+   pub const NAME: &'static str

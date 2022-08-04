@@ -1,0 +1,9 @@
+@@ -795,7 +1929,7 @@ variant s2n_quic::connection::Error::ImmediateClose exports field:
+ 
+ variant s2n_quic::connection::Error::ImmediateClose exports field:
+   source:
+-  &'static core::panic::Location<'static>
++  &'static core::panic::location::Location<'static>
+ 
+ variant s2n_quic::connection::Error::MaxHandshakeDurationExceeded is non-exhaustive
+ 

@@ -1,0 +1,17 @@
+@@ -4548,13 +5923,13 @@ struct s2n_quic::provider::event::events::PlatformTx implements trait:
+   impl core::marker::Unpin for s2n_quic::provider::event::events::PlatformTx
+ 
+ struct s2n_quic::provider::event::events::PlatformTx implements trait:
+-  impl s2n_quic::provider::event::Event for s2n_quic::provider::event::events::PlatformTx
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::event::events::PlatformTx
+ 
+ struct s2n_quic::provider::event::events::PlatformTx implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::event::events::PlatformTx
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::event::events::PlatformTx
+ 
+ struct s2n_quic::provider::event::events::PlatformTx implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::event::events::PlatformTx
++  impl s2n_quic::provider::event::Event for s2n_quic::provider::event::events::PlatformTx
+ 
+ struct s2n_quic::provider::event::events::PlatformTx exports constant:
+   pub const NAME: &'static str

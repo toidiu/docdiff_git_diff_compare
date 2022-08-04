@@ -1,0 +1,13 @@
+@@ -7985,10 +9518,10 @@ struct s2n_quic::provider::tls::rustls::rustls::ClientConnection exports functio
+   pub fn writer(&mut self) -> s2n_quic::provider::tls::rustls::rustls::Writer<'_>ⓘ
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::CommonState implements trait:
+-  impl !std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::CommonState
++  impl !core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::CommonState
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::CommonState implements trait:
+-  impl !std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::CommonState
++  impl !core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::CommonState
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::CommonState implements trait:
+   impl core::marker::Send for s2n_quic::provider::tls::rustls::rustls::CommonState

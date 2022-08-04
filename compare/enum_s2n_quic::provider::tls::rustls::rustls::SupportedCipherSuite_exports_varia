@@ -1,0 +1,13 @@
+@@ -9050,10 +10638,10 @@ enum s2n_quic::provider::tls::rustls::rustls::SupportedCipherSuite exports varia
+   Tls13(&'static s2n_quic::provider::tls::rustls::rustls::Tls13CipherSuite)
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::SupportedCipherSuite implements trait:
+-  impl !std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::SupportedCipherSuite
++  impl !core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::SupportedCipherSuite
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::SupportedCipherSuite implements trait:
+-  impl !std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::SupportedCipherSuite
++  impl !core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::SupportedCipherSuite
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::SupportedCipherSuite implements trait:
+   impl core::clone::Clone for s2n_quic::provider::tls::rustls::rustls::SupportedCipherSuite

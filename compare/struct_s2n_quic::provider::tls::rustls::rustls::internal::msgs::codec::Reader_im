@@ -1,0 +1,13 @@
+@@ -10052,10 +11668,10 @@ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Reader im
+   impl<'a> core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Reader<'a>
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Reader implements trait:
+-  impl<'a> std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Reader<'a>
++  impl<'a> core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Reader<'a>
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Reader implements trait:
+-  impl<'a> std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Reader<'a>
++  impl<'a> core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Reader<'a>
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Reader exports function:
+   pub fn any_left(&self) -> bool

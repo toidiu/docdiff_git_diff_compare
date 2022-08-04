@@ -1,0 +1,10 @@
+@@ -6282,6 +7805,9 @@ struct s2n_quic::provider::tls::rustls::Client exports function:
+ struct s2n_quic::provider::tls::rustls::Client exports function:
+   pub fn new(config: s2n_quic::provider::tls::rustls::rustls::ClientConfig) -> s2n_quic::provider::tls::rustls::Client
+ 
++struct s2n_quic::provider::tls::rustls::PrivateKey exports field:
++  0: alloc::vec::Vec<u8, alloc::alloc::Global>
++
+ struct s2n_quic::provider::tls::rustls::PrivateKey implements trait:
+   impl core::clone::Clone for s2n_quic::provider::tls::rustls::PrivateKey
+ 

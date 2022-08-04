@@ -1,0 +1,13 @@
+@@ -16912,10 +18893,10 @@ module s2n_quic::stream exports enum:
+   s2n_quic::stream::Type
+ 
+ struct s2n_quic::stream::BidirectionalStream implements trait:
+-  impl !std::panic::RefUnwindSafe for s2n_quic::stream::BidirectionalStream
++  impl !core::panic::unwind_safe::RefUnwindSafe for s2n_quic::stream::BidirectionalStream
+ 
+ struct s2n_quic::stream::BidirectionalStream implements trait:
+-  impl !std::panic::UnwindSafe for s2n_quic::stream::BidirectionalStream
++  impl !core::panic::unwind_safe::UnwindSafe for s2n_quic::stream::BidirectionalStream
+ 
+ struct s2n_quic::stream::BidirectionalStream implements trait:
+   impl core::convert::From<s2n_quic::stream::BidirectionalStream> for s2n_quic::stream::LocalStream

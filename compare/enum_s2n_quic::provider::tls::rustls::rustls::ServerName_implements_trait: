@@ -1,0 +1,25 @@
+@@ -8842,14 +10418,22 @@ enum s2n_quic::provider::tls::rustls::rustls::ServerName implements trait:
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::ServerName
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::ServerName implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::ServerName
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::ServerName
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::ServerName implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::ServerName
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::ServerName
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::ServerName implements trait:
+   impl<'_> core::convert::TryFrom<&'_ str> for s2n_quic::provider::tls::rustls::rustls::ServerName
+ 
++variant s2n_quic::provider::tls::rustls::rustls::ServerName::DnsName exports field:
++  0:
++  DnsName
++
++variant s2n_quic::provider::tls::rustls::rustls::ServerName::IpAddress exports field:
++  0:
++  std::net::ip::IpAddr
++
+ enum s2n_quic::provider::tls::rustls::rustls::SignatureScheme exports variant:
+   ECDSA_NISTP256_SHA256
+ 

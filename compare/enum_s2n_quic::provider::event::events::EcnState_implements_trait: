@@ -1,0 +1,13 @@
+@@ -2948,10 +4179,10 @@ enum s2n_quic::provider::event::events::EcnState implements trait:
+   impl core::marker::Unpin for s2n_quic::provider::event::events::EcnState
+ 
+ enum s2n_quic::provider::event::events::EcnState implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::event::events::EcnState
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::event::events::EcnState
+ 
+ enum s2n_quic::provider::event::events::EcnState implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::event::events::EcnState
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::event::events::EcnState
+ 
+ variant s2n_quic::provider::event::events::EcnState::Capable is non-exhaustive
+ 

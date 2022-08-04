@@ -1,0 +1,13 @@
+@@ -17578,10 +19575,10 @@ enum s2n_quic::stream::Stream exports variant:
+   Send(s2n_quic::stream::SendStream)
+ 
+ enum s2n_quic::stream::Stream implements trait:
+-  impl !std::panic::RefUnwindSafe for s2n_quic::stream::Stream
++  impl !core::panic::unwind_safe::RefUnwindSafe for s2n_quic::stream::Stream
+ 
+ enum s2n_quic::stream::Stream implements trait:
+-  impl !std::panic::UnwindSafe for s2n_quic::stream::Stream
++  impl !core::panic::unwind_safe::UnwindSafe for s2n_quic::stream::Stream
+ 
+ enum s2n_quic::stream::Stream implements trait:
+   impl core::convert::From<s2n_quic::stream::BidirectionalStream> for s2n_quic::stream::Stream

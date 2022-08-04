@@ -1,0 +1,13 @@
+@@ -6441,10 +7967,10 @@ struct s2n_quic::provider::tls::rustls::client::Builder exports function:
+   pub fn with_max_cert_chain_depth(self, len: u16) -> core::result::Result<s2n_quic::provider::tls::rustls::client::Builder, s2n_quic::provider::tls::rustls::rustls::Error>
+ 
+ struct s2n_quic::provider::tls::rustls::client::Client implements trait:
+-  impl !std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::Client
++  impl !core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::Client
+ 
+ struct s2n_quic::provider::tls::rustls::client::Client implements trait:
+-  impl !std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::Client
++  impl !core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::Client
+ 
+ struct s2n_quic::provider::tls::rustls::client::Client implements trait:
+   impl core::convert::From<s2n_quic::provider::tls::rustls::rustls::ClientConfig> for s2n_quic::provider::tls::rustls::Client

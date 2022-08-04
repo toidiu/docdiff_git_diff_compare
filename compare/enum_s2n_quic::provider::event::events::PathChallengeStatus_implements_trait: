@@ -1,0 +1,13 @@
+@@ -4223,10 +5598,10 @@ enum s2n_quic::provider::event::events::PathChallengeStatus implements trait:
+   impl core::marker::Unpin for s2n_quic::provider::event::events::PathChallengeStatus
+ 
+ enum s2n_quic::provider::event::events::PathChallengeStatus implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::event::events::PathChallengeStatus
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::event::events::PathChallengeStatus
+ 
+ enum s2n_quic::provider::event::events::PathChallengeStatus implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::event::events::PathChallengeStatus
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::event::events::PathChallengeStatus
+ 
+ variant s2n_quic::provider::event::events::PathChallengeStatus::Abandoned is non-exhaustive
+ 

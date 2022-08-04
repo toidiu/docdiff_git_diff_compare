@@ -1,0 +1,13 @@
+@@ -15656,10 +17637,10 @@ struct s2n_quic::provider::tls::rustls::rustls::server::ClientHello implements t
+   impl<'a> core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::server::ClientHello<'a>
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::server::ClientHello implements trait:
+-  impl<'a> std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::server::ClientHello<'a>
++  impl<'a> core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::server::ClientHello<'a>
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::server::ClientHello implements trait:
+-  impl<'a> std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::server::ClientHello<'a>
++  impl<'a> core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::server::ClientHello<'a>
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::server::ClientHello exports function:
+   pub fn alpn(&self) -> core::option::Option<impl core::iter::traits::iterator::Iterator<Item = &'a [u8]>>

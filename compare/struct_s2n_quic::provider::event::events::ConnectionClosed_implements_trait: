@@ -1,0 +1,17 @@
+@@ -2464,13 +3663,13 @@ struct s2n_quic::provider::event::events::ConnectionClosed implements trait:
+   impl core::marker::Unpin for s2n_quic::provider::event::events::ConnectionClosed
+ 
+ struct s2n_quic::provider::event::events::ConnectionClosed implements trait:
+-  impl s2n_quic::provider::event::Event for s2n_quic::provider::event::events::ConnectionClosed
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::event::events::ConnectionClosed
+ 
+ struct s2n_quic::provider::event::events::ConnectionClosed implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::event::events::ConnectionClosed
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::event::events::ConnectionClosed
+ 
+ struct s2n_quic::provider::event::events::ConnectionClosed implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::event::events::ConnectionClosed
++  impl s2n_quic::provider::event::Event for s2n_quic::provider::event::events::ConnectionClosed
+ 
+ struct s2n_quic::provider::event::events::ConnectionClosed exports constant:
+   pub const NAME: &'static str

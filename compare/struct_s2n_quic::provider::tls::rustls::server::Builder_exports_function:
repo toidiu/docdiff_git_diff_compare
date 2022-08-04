@@ -1,0 +1,13 @@
+@@ -16126,10 +18105,10 @@ struct s2n_quic::provider::tls::rustls::server::Builder exports function:
+   pub fn with_key_logging(self) -> core::result::Result<s2n_quic::provider::tls::rustls::server::Builder, s2n_quic::provider::tls::rustls::rustls::Error>
+ 
+ struct s2n_quic::provider::tls::rustls::server::Server implements trait:
+-  impl !std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::Server
++  impl !core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::Server
+ 
+ struct s2n_quic::provider::tls::rustls::server::Server implements trait:
+-  impl !std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::Server
++  impl !core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::Server
+ 
+ struct s2n_quic::provider::tls::rustls::server::Server implements trait:
+   impl core::convert::From<s2n_quic::provider::tls::rustls::rustls::ServerConfig> for s2n_quic::provider::tls::rustls::Server

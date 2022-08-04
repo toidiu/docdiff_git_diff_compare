@@ -1,0 +1,13 @@
+@@ -14567,10 +16528,10 @@ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::hsjoiner::Handsh
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::internal::msgs::hsjoiner::HandshakeJoiner
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::hsjoiner::HandshakeJoiner implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::hsjoiner::HandshakeJoiner
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::hsjoiner::HandshakeJoiner
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::hsjoiner::HandshakeJoiner implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::hsjoiner::HandshakeJoiner
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::hsjoiner::HandshakeJoiner
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::hsjoiner::HandshakeJoiner exports function:
+   pub fn is_empty(&self) -> bool

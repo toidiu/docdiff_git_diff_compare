@@ -1,0 +1,17 @@
+@@ -1939,13 +3079,13 @@ struct s2n_quic::provider::event::disabled::Provider implements trait:
+   impl core::marker::Unpin for s2n_quic::provider::event::disabled::Provider
+ 
+ struct s2n_quic::provider::event::disabled::Provider implements trait:
+-  impl s2n_quic::provider::event::Provider for s2n_quic::provider::event::disabled::Provider
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::event::disabled::Provider
+ 
+ struct s2n_quic::provider::event::disabled::Provider implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::event::disabled::Provider
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::event::disabled::Provider
+ 
+ struct s2n_quic::provider::event::disabled::Provider implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::event::disabled::Provider
++  impl s2n_quic::provider::event::Provider for s2n_quic::provider::event::disabled::Provider
+ 
+ struct s2n_quic::provider::event::disabled::Subscriber implements trait:
+   impl core::marker::Send for s2n_quic::provider::event::disabled::Subscriber

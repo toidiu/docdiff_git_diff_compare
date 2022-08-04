@@ -1,0 +1,51 @@
+@@ -17116,43 +19097,43 @@ variant s2n_quic::stream::Error::InvalidStream is non-exhaustive
+ 
+ variant s2n_quic::stream::Error::InvalidStream exports field:
+   source:
+-  &'static core::panic::Location<'static>
++  &'static core::panic::location::Location<'static>
+ 
+ variant s2n_quic::stream::Error::MaxStreamDataSizeExceeded is non-exhaustive
+ 
+ variant s2n_quic::stream::Error::MaxStreamDataSizeExceeded exports field:
+   source:
+-  &'static core::panic::Location<'static>
++  &'static core::panic::location::Location<'static>
+ 
+ variant s2n_quic::stream::Error::NonEmptyOutput is non-exhaustive
+ 
+ variant s2n_quic::stream::Error::NonEmptyOutput exports field:
+   source:
+-  &'static core::panic::Location<'static>
++  &'static core::panic::location::Location<'static>
+ 
+ variant s2n_quic::stream::Error::NonReadable is non-exhaustive
+ 
+ variant s2n_quic::stream::Error::NonReadable exports field:
+   source:
+-  &'static core::panic::Location<'static>
++  &'static core::panic::location::Location<'static>
+ 
+ variant s2n_quic::stream::Error::NonWritable is non-exhaustive
+ 
+ variant s2n_quic::stream::Error::NonWritable exports field:
+   source:
+-  &'static core::panic::Location<'static>
++  &'static core::panic::location::Location<'static>
+ 
+ variant s2n_quic::stream::Error::SendAfterFinish is non-exhaustive
+ 
+ variant s2n_quic::stream::Error::SendAfterFinish exports field:
+   source:
+-  &'static core::panic::Location<'static>
++  &'static core::panic::location::Location<'static>
+ 
+ variant s2n_quic::stream::Error::SendingBlocked is non-exhaustive
+ 
+ variant s2n_quic::stream::Error::SendingBlocked exports field:
+   source:
+-  &'static core::panic::Location<'static>
++  &'static core::panic::location::Location<'static>
+ 
+ variant s2n_quic::stream::Error::StreamReset is non-exhaustive
+ 

@@ -1,0 +1,13 @@
+@@ -9225,10 +10821,10 @@ struct s2n_quic::provider::tls::rustls::rustls::Tls13CipherSuite implements trai
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::Tls13CipherSuite
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::Tls13CipherSuite implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::Tls13CipherSuite
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::Tls13CipherSuite
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::Tls13CipherSuite implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::Tls13CipherSuite
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::Tls13CipherSuite
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::Tls13CipherSuite exports function:
+   pub fn can_resume_from(

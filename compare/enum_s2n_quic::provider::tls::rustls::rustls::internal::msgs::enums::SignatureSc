@@ -1,0 +1,11 @@
+@@ -12754,6 +14457,10 @@ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::SignatureSc
+ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::SignatureScheme exports function:
+   pub fn get_u16(&self) -> u16
+ 
++variant s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::SignatureScheme::Unknown exports field:
++  0:
++  u16
++
+ module s2n_quic::provider::tls::rustls::rustls::internal::msgs::fragmenter exports constant:
+   s2n_quic::provider::tls::rustls::rustls::internal::msgs::fragmenter::MAX_FRAGMENT_LEN
+ 

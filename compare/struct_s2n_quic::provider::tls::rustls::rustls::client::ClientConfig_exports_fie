@@ -1,0 +1,13 @@
+@@ -9484,10 +11080,10 @@ struct s2n_quic::provider::tls::rustls::rustls::client::ClientConfig exports fie
+   session_storage: alloc::sync::Arc<dyn s2n_quic::provider::tls::rustls::rustls::client::StoresClientSessions + 'static>
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::client::ClientConnection implements trait:
+-  impl !std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::ClientConnection
++  impl !core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::ClientConnection
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::client::ClientConnection implements trait:
+-  impl !std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::ClientConnection
++  impl !core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::ClientConnection
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::client::ClientConnection implements trait:
+   impl core::convert::From<s2n_quic::provider::tls::rustls::rustls::ClientConnection> for s2n_quic::provider::tls::rustls::rustls::Connection

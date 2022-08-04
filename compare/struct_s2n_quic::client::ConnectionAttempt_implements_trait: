@@ -1,0 +1,13 @@
+@@ -479,10 +1606,10 @@ struct s2n_quic::client::ConnectionAttempt implements trait:
+   impl core::marker::Unpin for s2n_quic::client::ConnectionAttempt
+ 
+ struct s2n_quic::client::DefaultProviders implements trait:
+-  impl !std::panic::RefUnwindSafe for s2n_quic::client::DefaultProviders
++  impl !core::panic::unwind_safe::RefUnwindSafe for s2n_quic::client::DefaultProviders
+ 
+ struct s2n_quic::client::DefaultProviders implements trait:
+-  impl !std::panic::UnwindSafe for s2n_quic::client::DefaultProviders
++  impl !core::panic::unwind_safe::UnwindSafe for s2n_quic::client::DefaultProviders
+ 
+ struct s2n_quic::client::DefaultProviders implements trait:
+   impl core::default::Default for s2n_quic::client::DefaultProviders

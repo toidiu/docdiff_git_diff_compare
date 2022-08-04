@@ -1,0 +1,13 @@
+@@ -8554,10 +10126,10 @@ struct s2n_quic::provider::tls::rustls::rustls::PrivateKey implements trait:
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::PrivateKey
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::PrivateKey implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::PrivateKey
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::PrivateKey
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::PrivateKey implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::PrivateKey
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::PrivateKey
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::ProtocolVersion exports variant:
+   DTLSv1_0

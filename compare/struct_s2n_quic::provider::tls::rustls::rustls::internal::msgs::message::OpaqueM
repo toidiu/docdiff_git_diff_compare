@@ -1,0 +1,13 @@
+@@ -14767,10 +16740,10 @@ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::message::OpaqueM
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::internal::msgs::message::OpaqueMessage
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::message::OpaqueMessage implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::message::OpaqueMessage
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::message::OpaqueMessage
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::message::OpaqueMessage implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::message::OpaqueMessage
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::message::OpaqueMessage
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::message::OpaqueMessage exports field:
+   payload: s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::Payload

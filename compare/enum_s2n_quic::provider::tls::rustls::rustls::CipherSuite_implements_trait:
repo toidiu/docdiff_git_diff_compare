@@ -1,0 +1,17 @@
+@@ -7854,13 +9383,13 @@ enum s2n_quic::provider::tls::rustls::rustls::CipherSuite implements trait:
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::CipherSuite
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::CipherSuite implements trait:
+-  impl s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Codec for s2n_quic::provider::tls::rustls::rustls::CipherSuite
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::CipherSuite
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::CipherSuite implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::CipherSuite
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::CipherSuite
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::CipherSuite implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::CipherSuite
++  impl s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Codec for s2n_quic::provider::tls::rustls::rustls::CipherSuite
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::CipherSuite exports function:
+   pub fn as_str(&self) -> core::option::Option<&'static str>

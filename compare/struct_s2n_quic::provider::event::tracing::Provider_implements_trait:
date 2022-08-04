@@ -1,0 +1,25 @@
+@@ -5419,19 +6918,19 @@ struct s2n_quic::provider::event::tracing::Provider implements trait:
+   impl core::marker::Unpin for s2n_quic::provider::event::tracing::Provider
+ 
+ struct s2n_quic::provider::event::tracing::Provider implements trait:
+-  impl s2n_quic::provider::event::Provider for s2n_quic::provider::event::tracing::Provider
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::event::tracing::Provider
+ 
+ struct s2n_quic::provider::event::tracing::Provider implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::event::tracing::Provider
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::event::tracing::Provider
+ 
+ struct s2n_quic::provider::event::tracing::Provider implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::event::tracing::Provider
++  impl s2n_quic::provider::event::Provider for s2n_quic::provider::event::tracing::Provider
+ 
+ struct s2n_quic::provider::event::tracing::Subscriber implements trait:
+-  impl !std::panic::RefUnwindSafe for s2n_quic::provider::event::tracing::Subscriber
++  impl !core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::event::tracing::Subscriber
+ 
+ struct s2n_quic::provider::event::tracing::Subscriber implements trait:
+-  impl !std::panic::UnwindSafe for s2n_quic::provider::event::tracing::Subscriber
++  impl !core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::event::tracing::Subscriber
+ 
+ struct s2n_quic::provider::event::tracing::Subscriber implements trait:
+   impl core::clone::Clone for s2n_quic::provider::event::tracing::Subscriber

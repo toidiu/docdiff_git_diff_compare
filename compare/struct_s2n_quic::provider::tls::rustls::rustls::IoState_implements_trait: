@@ -1,0 +1,13 @@
+@@ -8452,10 +10021,10 @@ struct s2n_quic::provider::tls::rustls::rustls::IoState implements trait:
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::IoState
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::IoState implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::IoState
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::IoState
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::IoState implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::IoState
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::IoState
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::IoState exports function:
+   pub fn peer_has_closed(&self) -> bool

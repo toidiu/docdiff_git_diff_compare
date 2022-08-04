@@ -1,0 +1,13 @@
+@@ -6400,10 +7926,10 @@ module s2n_quic::provider::tls::rustls::client exports struct:
+   s2n_quic::provider::tls::rustls::client::Client
+ 
+ struct s2n_quic::provider::tls::rustls::client::Builder implements trait:
+-  impl !std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::client::Builder
++  impl !core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::client::Builder
+ 
+ struct s2n_quic::provider::tls::rustls::client::Builder implements trait:
+-  impl !std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::client::Builder
++  impl !core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::client::Builder
+ 
+ struct s2n_quic::provider::tls::rustls::client::Builder implements trait:
+   impl core::default::Default for s2n_quic::provider::tls::rustls::client::Builder

@@ -1,0 +1,45 @@
+@@ -13519,31 +15321,35 @@ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ClientS
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ClientSessionTicket
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ClientSessionTicket implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ClientSessionTicket
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ClientSessionTicket
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ClientSessionTicket implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ClientSessionTicket
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ClientSessionTicket
++
++variant s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ClientSessionTicket::Offer exports field:
++  0:
++  s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::Payload
+ 
+ trait s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ConvertProtocolNameList exports function:
+-  pub fn as_single_slice(&self) -> core::option::Option<&[u8]>
++  fn as_single_slice(&self) -> core::option::Option<&[u8]>
+ 
+ trait s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ConvertProtocolNameList exports function:
+-  pub fn from_slices(names: &[&[u8]]) -> Self
++  fn from_slices(names: &[&[u8]]) -> Self
+ 
+ trait s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ConvertProtocolNameList exports function:
+-  pub fn to_slices(&self) -> alloc::vec::Vec<&[u8], alloc::alloc::Global>
++  fn to_slices(&self) -> alloc::vec::Vec<&[u8], alloc::alloc::Global>
+ 
+ trait s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ConvertServerNameList exports function:
+-  pub fn get_single_hostname(&self) -> core::option::Option<webpki::name::dns_name::DnsNameRef<'_>>
++  fn get_single_hostname(&self) -> core::option::Option<webpki::name::dns_name::DnsNameRef<'_>>
+ 
+ trait s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ConvertServerNameList exports function:
+-  pub fn has_duplicate_names_for_type(&self) -> bool
++  fn has_duplicate_names_for_type(&self) -> bool
+ 
+ trait s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::DecomposedSignatureScheme exports function:
+-  pub fn make(alg: s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::SignatureAlgorithm, hash: s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::HashAlgorithm) -> s2n_quic::provider::tls::rustls::rustls::SignatureScheme
++  fn make(alg: s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::SignatureAlgorithm, hash: s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::HashAlgorithm) -> s2n_quic::provider::tls::rustls::rustls::SignatureScheme
+ 
+ trait s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::DecomposedSignatureScheme exports function:
+-  pub fn sign(&self) -> s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::SignatureAlgorithm
++  fn sign(&self) -> s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::SignatureAlgorithm
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::DigitallySignedStruct implements trait:
+   impl core::clone::Clone for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::DigitallySignedStruct

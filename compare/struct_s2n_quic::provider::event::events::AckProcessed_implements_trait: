@@ -1,0 +1,17 @@
+@@ -2248,13 +3409,13 @@ struct s2n_quic::provider::event::events::AckProcessed implements trait:
+   impl<'a> core::marker::Unpin for s2n_quic::provider::event::events::AckProcessed<'a>
+ 
+ struct s2n_quic::provider::event::events::AckProcessed implements trait:
+-  impl<'a> s2n_quic::provider::event::Event for s2n_quic::provider::event::events::AckProcessed<'a>
++  impl<'a> core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::event::events::AckProcessed<'a>
+ 
+ struct s2n_quic::provider::event::events::AckProcessed implements trait:
+-  impl<'a> std::panic::RefUnwindSafe for s2n_quic::provider::event::events::AckProcessed<'a>
++  impl<'a> core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::event::events::AckProcessed<'a>
+ 
+ struct s2n_quic::provider::event::events::AckProcessed implements trait:
+-  impl<'a> std::panic::UnwindSafe for s2n_quic::provider::event::events::AckProcessed<'a>
++  impl<'a> s2n_quic::provider::event::Event for s2n_quic::provider::event::events::AckProcessed<'a>
+ 
+ struct s2n_quic::provider::event::events::AckProcessed exports field:
+   path: s2n_quic::provider::event::events::Path<'a>

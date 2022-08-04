@@ -1,0 +1,11 @@
+@@ -11593,6 +13224,10 @@ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::CipherSuite
+ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::CipherSuite exports function:
+   pub fn get_u16(&self) -> u16
+ 
++variant s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::CipherSuite::Unknown exports field:
++  0:
++  u16
++
+ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::ClientCertificateType exports variant:
+   DSSEphemeralDH
+ 

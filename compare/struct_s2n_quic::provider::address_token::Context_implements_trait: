@@ -1,0 +1,13 @@
+@@ -1185,10 +2326,10 @@ struct s2n_quic::provider::address_token::Context implements trait:
+   impl<'a> !core::marker::Sync for s2n_quic::provider::address_token::Context<'a>
+ 
+ struct s2n_quic::provider::address_token::Context implements trait:
+-  impl<'a> !std::panic::RefUnwindSafe for s2n_quic::provider::address_token::Context<'a>
++  impl<'a> !core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::address_token::Context<'a>
+ 
+ struct s2n_quic::provider::address_token::Context implements trait:
+-  impl<'a> !std::panic::UnwindSafe for s2n_quic::provider::address_token::Context<'a>
++  impl<'a> !core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::address_token::Context<'a>
+ 
+ struct s2n_quic::provider::address_token::Context implements trait:
+   impl<'a> core::marker::Send for s2n_quic::provider::address_token::Context<'a>

@@ -1,0 +1,17 @@
+@@ -4980,13 +6480,13 @@ struct s2n_quic::provider::event::events::TlsServerHello implements trait:
+   impl<'a> core::marker::Unpin for s2n_quic::provider::event::events::TlsServerHello<'a>
+ 
+ struct s2n_quic::provider::event::events::TlsServerHello implements trait:
+-  impl<'a> s2n_quic::provider::event::Event for s2n_quic::provider::event::events::TlsServerHello<'a>
++  impl<'a> core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::event::events::TlsServerHello<'a>
+ 
+ struct s2n_quic::provider::event::events::TlsServerHello implements trait:
+-  impl<'a> std::panic::RefUnwindSafe for s2n_quic::provider::event::events::TlsServerHello<'a>
++  impl<'a> core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::event::events::TlsServerHello<'a>
+ 
+ struct s2n_quic::provider::event::events::TlsServerHello implements trait:
+-  impl<'a> std::panic::UnwindSafe for s2n_quic::provider::event::events::TlsServerHello<'a>
++  impl<'a> s2n_quic::provider::event::Event for s2n_quic::provider::event::events::TlsServerHello<'a>
+ 
+ struct s2n_quic::provider::event::events::TlsServerHello exports field:
+   payload: &'a [&'a [u8]]

@@ -1,0 +1,9 @@
+@@ -8313,7 +9854,7 @@ struct s2n_quic::provider::tls::rustls::rustls::ConnectionCommon exports functio
+   pub fn writer(&mut self) -> s2n_quic::provider::tls::rustls::rustls::Writer<'_>ⓘ
+ 
+ typedef s2n_quic::provider::tls::rustls::rustls::DistinguishedNames exports typedef:
+-  type DistinguishedNames = alloc::vec::Vec<s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU16, alloc::alloc::Global>;
++  pub type DistinguishedNames = alloc::vec::Vec<s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU16, alloc::alloc::Global>;
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::Error exports variant:
+   AlertReceived(s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::AlertDescription)

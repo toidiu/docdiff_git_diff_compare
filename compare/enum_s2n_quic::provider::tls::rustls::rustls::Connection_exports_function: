@@ -1,0 +1,22 @@
+@@ -8234,11 +9767,19 @@ enum s2n_quic::provider::tls::rustls::rustls::Connection exports function:
+ enum s2n_quic::provider::tls::rustls::rustls::Connection exports function:
+   pub fn writer(&mut self) -> s2n_quic::provider::tls::rustls::rustls::Writer<'_>ⓘ
+ 
++variant s2n_quic::provider::tls::rustls::rustls::Connection::Client exports field:
++  0:
++  s2n_quic::provider::tls::rustls::rustls::ClientConnection
++
++variant s2n_quic::provider::tls::rustls::rustls::Connection::Server exports field:
++  0:
++  s2n_quic::provider::tls::rustls::rustls::ServerConnection
++
+ struct s2n_quic::provider::tls::rustls::rustls::ConnectionCommon implements trait:
+-  impl<Data> !std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::ConnectionCommon<Data>
++  impl<Data> !core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::ConnectionCommon<Data>
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::ConnectionCommon implements trait:
+-  impl<Data> !std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::ConnectionCommon<Data>
++  impl<Data> !core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::ConnectionCommon<Data>
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::ConnectionCommon implements trait:
+   impl<Data> core::marker::Send for s2n_quic::provider::tls::rustls::rustls::ConnectionCommon<Data> where

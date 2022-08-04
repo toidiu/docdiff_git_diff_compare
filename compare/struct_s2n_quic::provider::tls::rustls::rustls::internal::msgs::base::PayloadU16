@@ -1,0 +1,10 @@
+@@ -9901,6 +11511,9 @@ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU16
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU16 exports function:
+   pub fn new(bytes: alloc::vec::Vec<u8, alloc::alloc::Global>) -> s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU16
+ 
++struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU24 exports field:
++  0: alloc::vec::Vec<u8, alloc::alloc::Global>
++
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU24 implements trait:
+   impl core::clone::Clone for s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU24
+ 

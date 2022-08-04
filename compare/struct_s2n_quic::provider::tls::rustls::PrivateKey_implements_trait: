@@ -1,0 +1,21 @@
+@@ -6301,16 +7827,16 @@ struct s2n_quic::provider::tls::rustls::PrivateKey implements trait:
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::PrivateKey
+ 
+ struct s2n_quic::provider::tls::rustls::PrivateKey implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::PrivateKey
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::PrivateKey
+ 
+ struct s2n_quic::provider::tls::rustls::PrivateKey implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::PrivateKey
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::PrivateKey
+ 
+ struct s2n_quic::provider::tls::rustls::Server implements trait:
+-  impl !std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::Server
++  impl !core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::Server
+ 
+ struct s2n_quic::provider::tls::rustls::Server implements trait:
+-  impl !std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::Server
++  impl !core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::Server
+ 
+ struct s2n_quic::provider::tls::rustls::Server implements trait:
+   impl core::convert::From<s2n_quic::provider::tls::rustls::rustls::ServerConfig> for s2n_quic::provider::tls::rustls::Server

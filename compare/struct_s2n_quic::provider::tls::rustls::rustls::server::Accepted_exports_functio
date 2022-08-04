@@ -1,0 +1,13 @@
+@@ -15584,10 +17565,10 @@ struct s2n_quic::provider::tls::rustls::rustls::server::Accepted exports functio
+   config: alloc::sync::Arc<s2n_quic::provider::tls::rustls::rustls::ServerConfig>) -> core::result::Result<s2n_quic::provider::tls::rustls::rustls::ServerConnection, s2n_quic::provider::tls::rustls::rustls::Error>
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::server::Acceptor implements trait:
+-  impl !std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::server::Acceptor
++  impl !core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::server::Acceptor
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::server::Acceptor implements trait:
+-  impl !std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::server::Acceptor
++  impl !core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::server::Acceptor
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::server::Acceptor implements trait:
+   impl core::marker::Send for s2n_quic::provider::tls::rustls::rustls::server::Acceptor

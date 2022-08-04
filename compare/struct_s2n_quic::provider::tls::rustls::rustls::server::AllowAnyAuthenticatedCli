@@ -1,0 +1,13 @@
+@@ -15638,10 +17619,10 @@ struct s2n_quic::provider::tls::rustls::rustls::server::AllowAnyAuthenticatedCli
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::server::AllowAnyAuthenticatedClient
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::server::AllowAnyAuthenticatedClient implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::server::AllowAnyAuthenticatedClient
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::server::AllowAnyAuthenticatedClient
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::server::AllowAnyAuthenticatedClient implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::server::AllowAnyAuthenticatedClient
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::server::AllowAnyAuthenticatedClient
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::server::AllowAnyAuthenticatedClient exports function:
+   pub fn new(roots: s2n_quic::provider::tls::rustls::rustls::RootCertStore) -> alloc::sync::Arc<dyn ClientCertVerifier + 'static>

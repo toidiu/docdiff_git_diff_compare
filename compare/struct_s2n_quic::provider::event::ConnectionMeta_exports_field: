@@ -1,0 +1,11 @@
+@@ -1814,10 +2955,6 @@ struct s2n_quic::provider::event::ConnectionMeta exports field:
+ trait s2n_quic::provider::event::Event associates constant:
+   pub const NAME: &'static str
+ 
+-enum s2n_quic::provider::event::Location exports function:
+-  #[must_use]
+-  pub fn peer_type(self) -> s2n_quic::provider::event::Location
+-
+ enum s2n_quic::provider::event::Location exports variant:
+   Local
+ 

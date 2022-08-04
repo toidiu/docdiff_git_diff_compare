@@ -1,0 +1,21 @@
+@@ -8914,16 +10498,16 @@ enum s2n_quic::provider::tls::rustls::rustls::SignatureScheme implements trait:
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::SignatureScheme
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::SignatureScheme implements trait:
+-  impl s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Codec for s2n_quic::provider::tls::rustls::rustls::SignatureScheme
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::SignatureScheme
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::SignatureScheme implements trait:
+-  impl s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::DecomposedSignatureScheme for s2n_quic::provider::tls::rustls::rustls::SignatureScheme
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::SignatureScheme
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::SignatureScheme implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::SignatureScheme
++  impl s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Codec for s2n_quic::provider::tls::rustls::rustls::SignatureScheme
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::SignatureScheme implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::SignatureScheme
++  impl s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::DecomposedSignatureScheme for s2n_quic::provider::tls::rustls::rustls::SignatureScheme
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::SignatureScheme exports function:
+   pub fn as_str(&self) -> core::option::Option<&'static str>

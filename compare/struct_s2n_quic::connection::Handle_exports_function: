@@ -1,0 +1,13 @@
+@@ -938,10 +2079,10 @@ struct s2n_quic::connection::Handle exports function:
+   pub fn server_name(&self) -> s2n_quic::connection::Result<core::option::Option<s2n_quic::server::Name>>
+ 
+ struct s2n_quic::connection::ReceiveStreamAcceptor implements trait:
+-  impl !std::panic::RefUnwindSafe for s2n_quic::connection::ReceiveStreamAcceptor
++  impl !core::panic::unwind_safe::RefUnwindSafe for s2n_quic::connection::ReceiveStreamAcceptor
+ 
+ struct s2n_quic::connection::ReceiveStreamAcceptor implements trait:
+-  impl !std::panic::UnwindSafe for s2n_quic::connection::ReceiveStreamAcceptor
++  impl !core::panic::unwind_safe::UnwindSafe for s2n_quic::connection::ReceiveStreamAcceptor
+ 
+ struct s2n_quic::connection::ReceiveStreamAcceptor implements trait:
+   impl core::fmt::Debug for s2n_quic::connection::ReceiveStreamAcceptor

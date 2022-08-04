@@ -1,0 +1,13 @@
+@@ -5578,10 +7076,10 @@ struct s2n_quic::provider::io::tokio::Builder exports function:
+   pub fn with_tx_socket(self, socket: std::net::udp::UdpSocket) -> core::result::Result<s2n_quic::provider::io::tokio::Builder, std::io::error::Error>
+ 
+ struct s2n_quic::provider::io::tokio::Provider implements trait:
+-  impl !std::panic::RefUnwindSafe for s2n_quic::provider::io::Default
++  impl !core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::io::Default
+ 
+ struct s2n_quic::provider::io::tokio::Provider implements trait:
+-  impl !std::panic::UnwindSafe for s2n_quic::provider::io::Default
++  impl !core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::io::Default
+ 
+ struct s2n_quic::provider::io::tokio::Provider implements trait:
+   impl core::default::Default for s2n_quic::provider::io::Default

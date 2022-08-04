@@ -1,0 +1,25 @@
+@@ -12218,17 +13889,21 @@ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::HeartbeatMo
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::HeartbeatMode
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::HeartbeatMode implements trait:
+-  impl s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Codec for s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::HeartbeatMode
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::HeartbeatMode
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::HeartbeatMode implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::HeartbeatMode
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::HeartbeatMode
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::HeartbeatMode implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::HeartbeatMode
++  impl s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Codec for s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::HeartbeatMode
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::HeartbeatMode exports function:
+   pub fn get_u8(&self) -> u8
+ 
++variant s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::HeartbeatMode::Unknown exports field:
++  0:
++  u8
++
+ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::KeyUpdateRequest exports variant:
+   Unknown(u8)
+ 
