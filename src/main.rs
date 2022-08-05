@@ -73,10 +73,18 @@ fn is_interesting_diff(file_path: &Path, line: &str) -> bool {
     // impl !core::panic::unwind_safe::UnwindSafe for s2n_quic::stream::BidirectionalStream
     interesting &= !(line.contains("panic::") && line.contains("s2n_quic::stream"));
 
+    // These are reordered!!!
     // impl s2n_quic::provider::event::Event for s2n_quic::provider::event::events::PlatformTxError
     // impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::event::events::PlatformTxError
     interesting &= !((line.contains("panic::")
         || line.contains("impl s2n_quic::provider::event::Event"))
+        && line.contains("s2n_quic::provider::event"));
+
+    // These are reordered!!!
+    // impl<'a> s2n_quic::provider::event::Event for s2n_quic::provider::event::events::VersionInformation<'a>
+    // impl<'a> core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::event::events::VersionInformation<'a>
+    interesting &= !((line.contains("panic::")
+        || line.contains("impl<'a> s2n_quic::provider::event::Event"))
         && line.contains("s2n_quic::provider::event"));
 
     // impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::CipherSuite
