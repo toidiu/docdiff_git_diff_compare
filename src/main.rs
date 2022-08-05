@@ -87,6 +87,20 @@ fn is_interesting_diff(file_path: &Path, line: &str) -> bool {
         || line.contains("impl<'a> s2n_quic::provider::event::Event"))
         && line.contains("s2n_quic::provider::event"));
 
+    // These are reordered!!!
+    // impl s2n_quic::provider::event::Meta for s2n_quic::provider::event::ConnectionMeta
+    // impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::event::ConnectionMeta
+    interesting &= !((line.contains("panic::")
+        || line.contains("s2n_quic::provider::event::Meta"))
+        && line.contains("s2n_quic::provider::event"));
+
+    // These are reordered!!!
+    // impl s2n_quic::provider::event::Provider for s2n_quic::provider::event::tracing::Provider
+    // impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::event::tracing::Provider
+    interesting &= !((line.contains("panic::")
+        || line.contains("s2n_quic::provider::event::Provider"))
+        && line.contains("s2n_quic::provider::event"));
+
     // impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::CipherSuite
     // impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::CipherSuite
     interesting &= !(file_path
