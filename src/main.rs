@@ -7,15 +7,17 @@ use glob::glob;
 const BASE_PATH: &str = "comparea";
 
 fn main() {
-    // let reader = BufReader::new(File::open("git_diff").expect("Cannot open git_diff"));
-    // let mut current_file_path = Path::new("").to_owned();
-    //
-    // seperate diff file into smaller files based
-    // let reader = BufReader::new(File::open("git_diff").expect("Cannot open git_diff"));
-    // for line in reader.lines() {
-    //     let line = line.unwrap();
-    //     seperate_diff_into_individual_files(line, &mut current_file_path)
-    // }
+    // regenerate diff files
+    if false {
+        let reader = BufReader::new(File::open("git_diff").expect("Cannot open git_diff"));
+        let mut current_file_path = Path::new("").to_owned();
+
+        // seperate diff file into smaller files based
+        for line in reader.lines() {
+            let line = line.unwrap();
+            seperate_diff_into_individual_files(line, &mut current_file_path)
+        }
+    }
 
     // filter out trivial diffs
     let glob_path = format!("{}/*", BASE_PATH);
@@ -58,6 +60,10 @@ fn is_interesting_diff(line: &str) -> bool {
     // &'static core::panic::Location<'static>
     // &'static core::panic::location::Location<'static>
     interesting &= !(line.contains("panic::") && line.contains("::Location"));
+
+    // impl std::panic::UnwindSafe for s2n_quic::provider::endpoint_limits::Outcome
+    // impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::endpoint_limits::Outcome
+    interesting &= !(line.contains("panic::") && line.contains("s2n_quic::provider"));
 
     println!("panic:{} {} {}", !line.contains("panic"), interesting, line,);
     interesting
