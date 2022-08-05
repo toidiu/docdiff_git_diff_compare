@@ -4,7 +4,7 @@ use std::path::{Path, PathBuf};
 
 use glob::glob;
 
-const BASE_PATH: &str = "comparea";
+const BASE_PATH: &str = "compare";
 
 fn main() {
     // regenerate diff files
@@ -12,7 +12,7 @@ fn main() {
         let reader = BufReader::new(File::open("git_diff").expect("Cannot open git_diff"));
         let mut current_file_path = Path::new("").to_owned();
 
-        // seperate diff file into smaller files based
+        // separate diff file into smaller files based
         for line in reader.lines() {
             let line = line.unwrap();
             seperate_diff_into_individual_files(line, &mut current_file_path)
