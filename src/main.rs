@@ -65,6 +65,10 @@ fn is_interesting_diff(line: &str) -> bool {
     // impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::endpoint_limits::Outcome
     interesting &= !(line.contains("panic::") && line.contains("s2n_quic::provider"));
 
+    // impl !std::panic::RefUnwindSafe for s2n_quic::connection::Handle
+    // impl !core::panic::unwind_safe::RefUnwindSafe for s2n_quic::connection::Handle
+    interesting &= !(line.contains("panic::") && line.contains("s2n_quic::connection"));
+
     println!("panic:{} {} {}", !line.contains("panic"), interesting, line,);
     interesting
 }

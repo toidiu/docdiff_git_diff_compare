@@ -1,0 +1,10 @@
+ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::ExtensionType exports function:
+   pub fn get_u16(&self) -> u16
+ 
++variant s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::ExtensionType::Unknown exports field:
++  0:
++  u16
++
+ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::HandshakeType exports variant:
+   Certificate
+ 

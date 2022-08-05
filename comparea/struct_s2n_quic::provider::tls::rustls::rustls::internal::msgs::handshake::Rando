@@ -1,0 +1,8 @@
+   pub fn write_slice(&self, bytes: &mut [u8])
+ 
+ typedef s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::SCTList exports typedef:
+-  type SCTList = alloc::vec::Vec<s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU16, alloc::alloc::Global>;
++  pub type SCTList = alloc::vec::Vec<s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU16, alloc::alloc::Global>;
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ServerECDHParams exports field:
+   curve_params: s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ECParameters

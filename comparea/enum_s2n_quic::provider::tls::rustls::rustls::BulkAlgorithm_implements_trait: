@@ -1,0 +1,15 @@
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::BulkAlgorithm
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::BulkAlgorithm implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::BulkAlgorithm
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::BulkAlgorithm
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::BulkAlgorithm implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::BulkAlgorithm
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::BulkAlgorithm
++
++struct s2n_quic::provider::tls::rustls::rustls::Certificate exports field:
++  0: alloc::vec::Vec<u8, alloc::alloc::Global>
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::Certificate implements trait:
+   impl core::clone::Clone for s2n_quic::provider::tls::rustls::Certificate

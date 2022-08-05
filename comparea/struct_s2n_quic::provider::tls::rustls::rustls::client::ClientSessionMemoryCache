@@ -1,0 +1,16 @@
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::client::ClientSessionMemoryCache
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::client::ClientSessionMemoryCache implements trait:
+-  impl s2n_quic::provider::tls::rustls::rustls::client::StoresClientSessions for s2n_quic::provider::tls::rustls::rustls::client::ClientSessionMemoryCache
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::client::ClientSessionMemoryCache
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::client::ClientSessionMemoryCache implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::client::ClientSessionMemoryCache
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::client::ClientSessionMemoryCache
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::client::ClientSessionMemoryCache implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::client::ClientSessionMemoryCache
++  impl s2n_quic::provider::tls::rustls::rustls::client::StoresClientSessions for s2n_quic::provider::tls::rustls::rustls::client::ClientSessionMemoryCache
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::client::ClientSessionMemoryCache exports function:
+   pub fn new(size: usize) -> alloc::sync::Arc<s2n_quic::provider::tls::rustls::rustls::client::ClientSessionMemoryCache>

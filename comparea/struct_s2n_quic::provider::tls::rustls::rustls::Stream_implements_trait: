@@ -1,0 +1,12 @@
+ struct s2n_quic::provider::tls::rustls::rustls::Stream implements trait:
+   impl<'a, C:
+   ?core::marker::Sized, T:
+-  ?core::marker::Sized> std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::Stream<'a, C, T> where
+-  C: std::panic::RefUnwindSafe,
+-  T: std::panic::RefUnwindSafe,
++  ?core::marker::Sized> core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::Stream<'a, C, T> where
++  C: core::panic::unwind_safe::RefUnwindSafe,
++  T: core::panic::unwind_safe::RefUnwindSafe,
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::Stream exports function:
+   pub fn new(conn: &'a mut C, sock: &'a mut T) -> s2n_quic::provider::tls::rustls::rustls::Stream<'a, C, T>ⓘ

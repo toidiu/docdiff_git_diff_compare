@@ -1,0 +1,27 @@
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ECParameters
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ECParameters implements trait:
+-  impl s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Codec for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ECParameters
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ECParameters
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ECParameters implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ECParameters
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ECParameters
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ECParameters implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ECParameters
++  impl s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Codec for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ECParameters
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ECParameters exports field:
+   named_group: s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::NamedGroup
+ 
+ typedef s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ECPointFormatList exports typedef:
+-  type ECPointFormatList = alloc::vec::Vec<s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::ECPointFormat, alloc::alloc::Global>;
++  pub type ECPointFormatList = alloc::vec::Vec<s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::ECPointFormat, alloc::alloc::Global>;
+ 
+ typedef s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::EncryptedExtensions exports typedef:
+-  type EncryptedExtensions = alloc::vec::Vec<s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ServerExtension, alloc::alloc::Global>;
++  pub type EncryptedExtensions = alloc::vec::Vec<s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ServerExtension, alloc::alloc::Global>;
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::HandshakeMessagePayload implements trait:
+   impl core::fmt::Debug for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::HandshakeMessagePayload

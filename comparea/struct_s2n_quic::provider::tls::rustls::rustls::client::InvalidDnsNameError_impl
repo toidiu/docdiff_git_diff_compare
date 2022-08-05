@@ -1,0 +1,16 @@
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::client::InvalidDnsNameError
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::client::InvalidDnsNameError implements trait:
+-  impl std::error::Error for s2n_quic::provider::tls::rustls::rustls::client::InvalidDnsNameError
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::client::InvalidDnsNameError
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::client::InvalidDnsNameError implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::client::InvalidDnsNameError
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::client::InvalidDnsNameError
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::client::InvalidDnsNameError implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::client::InvalidDnsNameError
++  impl std::error::Error for s2n_quic::provider::tls::rustls::rustls::client::InvalidDnsNameError
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::client::NoClientSessionStorage implements trait:
+   impl core::marker::Send for s2n_quic::provider::tls::rustls::rustls::client::NoClientSessionStorage

@@ -1,0 +1,16 @@
+   impl core::marker::Unpin for s2n_quic::provider::event::events::KeepAliveTimerExpired
+ 
+ struct s2n_quic::provider::event::events::KeepAliveTimerExpired implements trait:
+-  impl s2n_quic::provider::event::Event for s2n_quic::provider::event::events::KeepAliveTimerExpired
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::event::events::KeepAliveTimerExpired
+ 
+ struct s2n_quic::provider::event::events::KeepAliveTimerExpired implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::event::events::KeepAliveTimerExpired
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::event::events::KeepAliveTimerExpired
+ 
+ struct s2n_quic::provider::event::events::KeepAliveTimerExpired implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::event::events::KeepAliveTimerExpired
++  impl s2n_quic::provider::event::Event for s2n_quic::provider::event::events::KeepAliveTimerExpired
+ 
+ struct s2n_quic::provider::event::events::KeepAliveTimerExpired exports constant:
+   pub const NAME: &'static str

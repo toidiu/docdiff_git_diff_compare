@@ -1,0 +1,12 @@
+   s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::u24
+ 
+ trait s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Codec exports function:
+-  pub fn encode(&self, bytes: &mut alloc::vec::Vec<u8, alloc::alloc::Global>)
++  fn encode(&self, bytes: &mut alloc::vec::Vec<u8, alloc::alloc::Global>)
+ 
+ trait s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Codec exports function:
+-  pub fn read(&mut s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Reader<'_>) -> core::option::Option<Self>
++  fn read(&mut s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Reader<'_>) -> core::option::Option<Self>
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Reader implements trait:
+   impl<'a> core::marker::Send for s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Reader<'a>

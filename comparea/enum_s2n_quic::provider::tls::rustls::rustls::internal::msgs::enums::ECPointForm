@@ -1,0 +1,24 @@
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::ECPointFormat
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::ECPointFormat implements trait:
+-  impl s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Codec for s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::ECPointFormat
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::ECPointFormat
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::ECPointFormat implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::ECPointFormat
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::ECPointFormat
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::ECPointFormat implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::ECPointFormat
++  impl s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Codec for s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::ECPointFormat
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::ECPointFormat exports function:
+   pub fn get_u8(&self) -> u8
+ 
++variant s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::ECPointFormat::Unknown exports field:
++  0:
++  u8
++
+ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::ExtensionType exports variant:
+   ALProtocolNegotiation
+ 

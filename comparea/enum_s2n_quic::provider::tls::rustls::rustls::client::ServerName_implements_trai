@@ -1,0 +1,39 @@
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::ServerName
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::client::ServerName implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::ServerName
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::ServerName
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::client::ServerName implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::ServerName
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::ServerName
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::client::ServerName implements trait:
+   impl<'_> core::convert::TryFrom<&'_ str> for s2n_quic::provider::tls::rustls::rustls::ServerName
+ 
++variant s2n_quic::provider::tls::rustls::rustls::client::ServerName::DnsName exports field:
++  0:
++  DnsName
++
++variant s2n_quic::provider::tls::rustls::rustls::client::ServerName::IpAddress exports field:
++  0:
++  std::net::ip::IpAddr
++
+ trait s2n_quic::provider::tls::rustls::rustls::client::StoresClientSessions exports function:
+-  pub fn get(&self, key: &[u8]) -> core::option::Option<alloc::vec::Vec<u8, alloc::alloc::Global>>
++  fn get(&self, key: &[u8]) -> core::option::Option<alloc::vec::Vec<u8, alloc::alloc::Global>>
+ 
+ trait s2n_quic::provider::tls::rustls::rustls::client::StoresClientSessions exports function:
+-  pub fn put(&self, key: alloc::vec::Vec<u8, alloc::alloc::Global>, value: alloc::vec::Vec<u8, alloc::alloc::Global>) -> bool
++  fn put(&self, key: alloc::vec::Vec<u8, alloc::alloc::Global>, value: alloc::vec::Vec<u8, alloc::alloc::Global>) -> bool
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::client::WantsClientCert implements trait:
+-  impl !std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::client::WantsClientCert
++  impl !core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::client::WantsClientCert
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::client::WantsClientCert implements trait:
+-  impl !std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::client::WantsClientCert
++  impl !core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::client::WantsClientCert
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::client::WantsClientCert implements trait:
+   impl core::clone::Clone for s2n_quic::provider::tls::rustls::rustls::client::WantsClientCert

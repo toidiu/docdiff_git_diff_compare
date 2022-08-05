@@ -1,0 +1,19 @@
+   send_half_rtt_data: bool
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::ServerConfig exports field:
+-  session_storage: alloc::sync::Arc<dyn s2n_quic::provider::tls::rustls::rustls::server::StoresServerSessions + 'static + core::marker::Send + core::marker::Sync>
++  session_storage: alloc::sync::Arc<dyn s2n_quic::provider::tls::rustls::rustls::server::StoresServerSessions + core::marker::Send + core::marker::Sync + 'static>
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::ServerConfig exports field:
+   ticketer: alloc::sync::Arc<dyn s2n_quic::provider::tls::rustls::rustls::server::ProducesTickets + 'static>
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::ServerConnection implements trait:
+-  impl !std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::ServerConnection
++  impl !core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::ServerConnection
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::ServerConnection implements trait:
+-  impl !std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::ServerConnection
++  impl !core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::ServerConnection
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::ServerConnection implements trait:
+   impl core::convert::From<s2n_quic::provider::tls::rustls::rustls::ServerConnection> for s2n_quic::provider::tls::rustls::rustls::Connection

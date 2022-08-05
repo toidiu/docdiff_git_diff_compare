@@ -1,0 +1,16 @@
+   impl core::marker::Unpin for s2n_quic::provider::event::events::EndpointConnectionAttemptFailed
+ 
+ struct s2n_quic::provider::event::events::EndpointConnectionAttemptFailed implements trait:
+-  impl s2n_quic::provider::event::Event for s2n_quic::provider::event::events::EndpointConnectionAttemptFailed
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::event::events::EndpointConnectionAttemptFailed
+ 
+ struct s2n_quic::provider::event::events::EndpointConnectionAttemptFailed implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::event::events::EndpointConnectionAttemptFailed
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::event::events::EndpointConnectionAttemptFailed
+ 
+ struct s2n_quic::provider::event::events::EndpointConnectionAttemptFailed implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::event::events::EndpointConnectionAttemptFailed
++  impl s2n_quic::provider::event::Event for s2n_quic::provider::event::events::EndpointConnectionAttemptFailed
+ 
+ struct s2n_quic::provider::event::events::EndpointConnectionAttemptFailed exports constant:
+   pub const NAME: &'static str

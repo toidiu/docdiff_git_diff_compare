@@ -1,0 +1,9 @@
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Reader exports function:
+   pub fn used(&self) -> usize
+ 
++struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::u24 exports field:
++  0: u32
++
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::u24 implements trait:
+   impl core::clone::Clone for s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::u24
+ 

@@ -1,0 +1,16 @@
+   impl core::marker::Unpin for s2n_quic::provider::event::events::EndpointPacketReceived
+ 
+ struct s2n_quic::provider::event::events::EndpointPacketReceived implements trait:
+-  impl s2n_quic::provider::event::Event for s2n_quic::provider::event::events::EndpointPacketReceived
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::event::events::EndpointPacketReceived
+ 
+ struct s2n_quic::provider::event::events::EndpointPacketReceived implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::event::events::EndpointPacketReceived
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::event::events::EndpointPacketReceived
+ 
+ struct s2n_quic::provider::event::events::EndpointPacketReceived implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::event::events::EndpointPacketReceived
++  impl s2n_quic::provider::event::Event for s2n_quic::provider::event::events::EndpointPacketReceived
+ 
+ struct s2n_quic::provider::event::events::EndpointPacketReceived exports field:
+   packet_header: s2n_quic::provider::event::events::PacketHeader

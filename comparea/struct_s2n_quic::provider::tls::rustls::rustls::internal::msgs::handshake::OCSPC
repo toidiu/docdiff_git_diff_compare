@@ -1,0 +1,35 @@
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::OCSPCertificateStatusRequest
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::OCSPCertificateStatusRequest implements trait:
+-  impl s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Codec for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::OCSPCertificateStatusRequest
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::OCSPCertificateStatusRequest
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::OCSPCertificateStatusRequest implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::OCSPCertificateStatusRequest
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::OCSPCertificateStatusRequest
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::OCSPCertificateStatusRequest implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::OCSPCertificateStatusRequest
++  impl s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Codec for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::OCSPCertificateStatusRequest
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::OCSPCertificateStatusRequest exports field:
+   responder_ids: alloc::vec::Vec<s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU16, alloc::alloc::Global>
+ 
+ typedef s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::PSKKeyExchangeModes exports typedef:
+-  type PSKKeyExchangeModes = alloc::vec::Vec<s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::PSKKeyExchangeMode, alloc::alloc::Global>;
++  pub type PSKKeyExchangeModes = alloc::vec::Vec<s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::PSKKeyExchangeMode, alloc::alloc::Global>;
+ 
+ typedef s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::PresharedKeyBinder exports typedef:
+-  type PresharedKeyBinder = s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU8;
++  pub type PresharedKeyBinder = s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU8;
+ 
+ typedef s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::PresharedKeyBinders exports typedef:
+-  type PresharedKeyBinders = alloc::vec::Vec<s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU8, alloc::alloc::Global>;
++  pub type PresharedKeyBinders = alloc::vec::Vec<s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU8, alloc::alloc::Global>;
+ 
+ typedef s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::PresharedKeyIdentities exports typedef:
+-  type PresharedKeyIdentities = alloc::vec::Vec<s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::PresharedKeyIdentity, alloc::alloc::Global>;
++  pub type PresharedKeyIdentities = alloc::vec::Vec<s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::PresharedKeyIdentity, alloc::alloc::Global>;
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::PresharedKeyIdentity exports field:
+   identity: s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU16

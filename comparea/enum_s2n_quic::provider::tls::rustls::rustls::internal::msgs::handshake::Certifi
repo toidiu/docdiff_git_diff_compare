@@ -1,0 +1,31 @@
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertificateStatusRequest
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertificateStatusRequest implements trait:
+-  impl s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Codec for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertificateStatusRequest
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertificateStatusRequest
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertificateStatusRequest implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertificateStatusRequest
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertificateStatusRequest
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertificateStatusRequest implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertificateStatusRequest
++  impl s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Codec for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertificateStatusRequest
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertificateStatusRequest exports function:
+   pub fn build_ocsp() -> s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertificateStatusRequest
+ 
++variant s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertificateStatusRequest::OCSP exports field:
++  0:
++  s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::OCSPCertificateStatusRequest
++
++variant s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertificateStatusRequest::Unknown exports field:
++  0:
++  (s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::CertificateStatusType, s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::Payload)
++
+ typedef s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ClientCertificateTypes exports typedef:
+-  type ClientCertificateTypes = alloc::vec::Vec<s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::ClientCertificateType, alloc::alloc::Global>;
++  pub type ClientCertificateTypes = alloc::vec::Vec<s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::ClientCertificateType, alloc::alloc::Global>;
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ClientECDHParams implements trait:
+   impl core::fmt::Debug for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ClientECDHParams

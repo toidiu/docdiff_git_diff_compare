@@ -1,0 +1,12 @@
+   impl<'a> core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::Reader<'a>
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::Reader implements trait:
+-  impl<'a> std::io::Read for s2n_quic::provider::tls::rustls::rustls::Reader<'a>
++  impl<'a> core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::Reader<'a>
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::Reader implements trait:
+-  impl<'a> std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::Reader<'a>
++  impl<'a> std::io::Read for s2n_quic::provider::tls::rustls::rustls::Reader<'a>
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::RootCertStore implements trait:
+   impl core::clone::Clone for s2n_quic::provider::tls::rustls::rustls::RootCertStore

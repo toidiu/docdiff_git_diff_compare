@@ -1,0 +1,16 @@
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU8
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU8 implements trait:
+-  impl s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Codec for s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU8
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU8
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU8 implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU8
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU8
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU8 implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU8
++  impl s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Codec for s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU8
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU8 implements trait:
+   impl<'_> core::convert::From<ring::hkdf::Okm<'_, PayloadU8Len>> for s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU8

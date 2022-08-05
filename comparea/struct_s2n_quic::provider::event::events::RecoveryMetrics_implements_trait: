@@ -1,0 +1,16 @@
+   impl<'a> core::marker::Unpin for s2n_quic::provider::event::events::RecoveryMetrics<'a>
+ 
+ struct s2n_quic::provider::event::events::RecoveryMetrics implements trait:
+-  impl<'a> s2n_quic::provider::event::Event for s2n_quic::provider::event::events::RecoveryMetrics<'a>
++  impl<'a> core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::event::events::RecoveryMetrics<'a>
+ 
+ struct s2n_quic::provider::event::events::RecoveryMetrics implements trait:
+-  impl<'a> std::panic::RefUnwindSafe for s2n_quic::provider::event::events::RecoveryMetrics<'a>
++  impl<'a> core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::event::events::RecoveryMetrics<'a>
+ 
+ struct s2n_quic::provider::event::events::RecoveryMetrics implements trait:
+-  impl<'a> std::panic::UnwindSafe for s2n_quic::provider::event::events::RecoveryMetrics<'a>
++  impl<'a> s2n_quic::provider::event::Event for s2n_quic::provider::event::events::RecoveryMetrics<'a>
+ 
+ struct s2n_quic::provider::event::events::RecoveryMetrics exports field:
+   latest_rtt: core::time::Duration

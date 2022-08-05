@@ -1,0 +1,16 @@
+   impl<'a> core::marker::Unpin for s2n_quic::provider::event::events::ConnectionStarted<'a>
+ 
+ struct s2n_quic::provider::event::events::ConnectionStarted implements trait:
+-  impl<'a> s2n_quic::provider::event::Event for s2n_quic::provider::event::events::ConnectionStarted<'a>
++  impl<'a> core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::event::events::ConnectionStarted<'a>
+ 
+ struct s2n_quic::provider::event::events::ConnectionStarted implements trait:
+-  impl<'a> std::panic::RefUnwindSafe for s2n_quic::provider::event::events::ConnectionStarted<'a>
++  impl<'a> core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::event::events::ConnectionStarted<'a>
+ 
+ struct s2n_quic::provider::event::events::ConnectionStarted implements trait:
+-  impl<'a> std::panic::UnwindSafe for s2n_quic::provider::event::events::ConnectionStarted<'a>
++  impl<'a> s2n_quic::provider::event::Event for s2n_quic::provider::event::events::ConnectionStarted<'a>
+ 
+ struct s2n_quic::provider::event::events::ConnectionStarted exports field:
+   path: s2n_quic::provider::event::events::Path<'a>

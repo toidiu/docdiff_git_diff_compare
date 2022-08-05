@@ -1,0 +1,8 @@
+   typ: s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::ContentType,
+   version: s2n_quic::provider::tls::rustls::rustls::ProtocolVersion,
+   payload: &'a [u8],
+-  out: &mut alloc::collections::vec_deque::VecDeque<s2n_quic::provider::tls::rustls::rustls::internal::msgs::message::BorrowedPlainMessage<'a>>)
++  out: &mut alloc::collections::vec_deque::VecDeque<s2n_quic::provider::tls::rustls::rustls::internal::msgs::message::BorrowedPlainMessage<'a>, alloc::alloc::Global>)
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::fragmenter::MessageFragmenter exports function:
+   pub fn new(max_fragment_size: core::option::Option<usize>) -> core::result::Result<s2n_quic::provider::tls::rustls::rustls::internal::msgs::fragmenter::MessageFragmenter, s2n_quic::provider::tls::rustls::rustls::Error>

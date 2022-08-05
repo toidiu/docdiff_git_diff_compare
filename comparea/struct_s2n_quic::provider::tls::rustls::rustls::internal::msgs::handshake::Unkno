@@ -1,0 +1,19 @@
+   typ: s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::ExtensionType
+ 
+ typedef s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::VecU16OfPayloadU16 exports typedef:
+-  type VecU16OfPayloadU16 = alloc::vec::Vec<s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU16, alloc::alloc::Global>;
++  pub type VecU16OfPayloadU16 = alloc::vec::Vec<s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU16, alloc::alloc::Global>;
+ 
+ typedef s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::VecU16OfPayloadU8 exports typedef:
+-  type VecU16OfPayloadU8 = alloc::vec::Vec<s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU8, alloc::alloc::Global>;
++  pub type VecU16OfPayloadU8 = alloc::vec::Vec<s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU8, alloc::alloc::Global>;
+ 
+ module s2n_quic::provider::tls::rustls::rustls::internal::msgs::hsjoiner exports struct:
+   s2n_quic::provider::tls::rustls::rustls::internal::msgs::hsjoiner::HandshakeJoiner
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::hsjoiner::HandshakeJoiner exports field:
+-  frames: alloc::collections::vec_deque::VecDeque<s2n_quic::provider::tls::rustls::rustls::internal::msgs::message::Message>
++  frames: alloc::collections::vec_deque::VecDeque<s2n_quic::provider::tls::rustls::rustls::internal::msgs::message::Message, alloc::alloc::Global>
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::hsjoiner::HandshakeJoiner implements trait:
+   impl core::default::Default for s2n_quic::provider::tls::rustls::rustls::internal::msgs::hsjoiner::HandshakeJoiner

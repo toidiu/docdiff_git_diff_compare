@@ -1,0 +1,66 @@
+ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ClientExtension exports function:
+   pub fn make_sni(dns_name: webpki::name::dns_name::DnsNameRef<'_>) -> s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ClientExtension
+ 
++variant s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ClientExtension::CertificateStatusRequest exports field:
++  0:
++  s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertificateStatusRequest
++
++variant s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ClientExtension::Cookie exports field:
++  0:
++  s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU16
++
++variant s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ClientExtension::ECPointFormats exports field:
++  0:
++  alloc::vec::Vec<s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::ECPointFormat, alloc::alloc::Global>
++
++variant s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ClientExtension::KeyShare exports field:
++  0:
++  alloc::vec::Vec<s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::KeyShareEntry, alloc::alloc::Global>
++
++variant s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ClientExtension::NamedGroups exports field:
++  0:
++  alloc::vec::Vec<s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::NamedGroup, alloc::alloc::Global>
++
++variant s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ClientExtension::PresharedKey exports field:
++  0:
++  s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::PresharedKeyOffer
++
++variant s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ClientExtension::PresharedKeyModes exports field:
++  0:
++  alloc::vec::Vec<s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::PSKKeyExchangeMode, alloc::alloc::Global>
++
++variant s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ClientExtension::Protocols exports field:
++  0:
++  alloc::vec::Vec<s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU8, alloc::alloc::Global>
++
++variant s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ClientExtension::ServerName exports field:
++  0:
++  alloc::vec::Vec<s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ServerName, alloc::alloc::Global>
++
++variant s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ClientExtension::SessionTicket exports field:
++  0:
++  s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ClientSessionTicket
++
++variant s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ClientExtension::SignatureAlgorithms exports field:
++  0:
++  alloc::vec::Vec<s2n_quic::provider::tls::rustls::rustls::SignatureScheme, alloc::alloc::Global>
++
++variant s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ClientExtension::SupportedVersions exports field:
++  0:
++  alloc::vec::Vec<s2n_quic::provider::tls::rustls::rustls::ProtocolVersion, alloc::alloc::Global>
++
++variant s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ClientExtension::TransportParameters exports field:
++  0:
++  alloc::vec::Vec<u8, alloc::alloc::Global>
++
++variant s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ClientExtension::TransportParametersDraft exports field:
++  0:
++  alloc::vec::Vec<u8, alloc::alloc::Global>
++
++variant s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ClientExtension::Unknown exports field:
++  0:
++  s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::UnknownExtension
++
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ClientHelloPayload exports field:
+   cipher_suites: alloc::vec::Vec<s2n_quic::provider::tls::rustls::rustls::CipherSuite, alloc::alloc::Global>
+ 

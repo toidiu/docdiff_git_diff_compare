@@ -1,0 +1,16 @@
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::KeyLogFile
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::KeyLogFile implements trait:
+-  impl s2n_quic::provider::tls::rustls::rustls::KeyLog for s2n_quic::provider::tls::rustls::rustls::KeyLogFile
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::KeyLogFile
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::KeyLogFile implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::KeyLogFile
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::KeyLogFile
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::KeyLogFile implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::KeyLogFile
++  impl s2n_quic::provider::tls::rustls::rustls::KeyLog for s2n_quic::provider::tls::rustls::rustls::KeyLogFile
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::KeyLogFile exports function:
+   pub fn new() -> s2n_quic::provider::tls::rustls::rustls::KeyLogFile

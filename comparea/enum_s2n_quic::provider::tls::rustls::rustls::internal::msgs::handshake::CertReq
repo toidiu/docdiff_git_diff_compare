@@ -1,0 +1,35 @@
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertReqExtension
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertReqExtension implements trait:
+-  impl s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Codec for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertReqExtension
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertReqExtension
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertReqExtension implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertReqExtension
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertReqExtension
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertReqExtension implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertReqExtension
++  impl s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Codec for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertReqExtension
+ 
+ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertReqExtension exports function:
+   pub fn get_type(&self) -> s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::ExtensionType
+ 
++variant s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertReqExtension::AuthorityNames exports field:
++  0:
++  alloc::vec::Vec<s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU16, alloc::alloc::Global>
++
++variant s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertReqExtension::SignatureAlgorithms exports field:
++  0:
++  alloc::vec::Vec<s2n_quic::provider::tls::rustls::rustls::SignatureScheme, alloc::alloc::Global>
++
++variant s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertReqExtension::Unknown exports field:
++  0:
++  s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::UnknownExtension
++
+ typedef s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertReqExtensions exports typedef:
+-  type CertReqExtensions = alloc::vec::Vec<s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertReqExtension, alloc::alloc::Global>;
++  pub type CertReqExtensions = alloc::vec::Vec<s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertReqExtension, alloc::alloc::Global>;
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertificateEntry exports field:
+   cert: s2n_quic::provider::tls::rustls::Certificate

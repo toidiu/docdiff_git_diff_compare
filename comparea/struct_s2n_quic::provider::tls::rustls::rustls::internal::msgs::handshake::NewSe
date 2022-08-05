@@ -1,0 +1,16 @@
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::NewSessionTicketPayloadTLS13
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::NewSessionTicketPayloadTLS13 implements trait:
+-  impl s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Codec for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::NewSessionTicketPayloadTLS13
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::NewSessionTicketPayloadTLS13
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::NewSessionTicketPayloadTLS13 implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::NewSessionTicketPayloadTLS13
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::NewSessionTicketPayloadTLS13
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::NewSessionTicketPayloadTLS13 implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::NewSessionTicketPayloadTLS13
++  impl s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Codec for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::NewSessionTicketPayloadTLS13
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::NewSessionTicketPayloadTLS13 exports field:
+   lifetime: u32

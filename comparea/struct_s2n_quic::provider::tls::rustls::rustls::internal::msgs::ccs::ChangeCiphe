@@ -1,0 +1,16 @@
+   impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::internal::msgs::ccs::ChangeCipherSpecPayload
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::ccs::ChangeCipherSpecPayload implements trait:
+-  impl s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Codec for s2n_quic::provider::tls::rustls::rustls::internal::msgs::ccs::ChangeCipherSpecPayload
++  impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::ccs::ChangeCipherSpecPayload
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::ccs::ChangeCipherSpecPayload implements trait:
+-  impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::ccs::ChangeCipherSpecPayload
++  impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::ccs::ChangeCipherSpecPayload
+ 
+ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::ccs::ChangeCipherSpecPayload implements trait:
+-  impl std::panic::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::internal::msgs::ccs::ChangeCipherSpecPayload
++  impl s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Codec for s2n_quic::provider::tls::rustls::rustls::internal::msgs::ccs::ChangeCipherSpecPayload
+ 
+ module s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec exports trait:
+   s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Codec

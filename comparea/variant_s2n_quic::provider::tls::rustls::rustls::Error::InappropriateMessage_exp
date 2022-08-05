@@ -1,0 +1,22 @@
+   got_type:
+   s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::ContentType
+ 
++variant s2n_quic::provider::tls::rustls::rustls::Error::InvalidCertificateData exports field:
++  0:
++  alloc::string::String
++
++variant s2n_quic::provider::tls::rustls::rustls::Error::InvalidSct exports field:
++  0:
++  sct::Error
++
++variant s2n_quic::provider::tls::rustls::rustls::Error::PeerIncompatibleError exports field:
++  0:
++  alloc::string::String
++
++variant s2n_quic::provider::tls::rustls::rustls::Error::PeerMisbehavedError exports field:
++  0:
++  alloc::string::String
++
+ struct s2n_quic::provider::tls::rustls::rustls::IoState implements trait:
+   impl core::cmp::PartialEq<s2n_quic::provider::tls::rustls::rustls::IoState> for s2n_quic::provider::tls::rustls::rustls::IoState
+ 
