@@ -8,7 +8,8 @@ const BASE_PATH: &str = "compare";
 
 fn main() {
     // regenerate diff files
-    if false {
+    if true {
+        std::fs::create_dir_all(BASE_PATH).unwrap();
         let reader = BufReader::new(File::open("git_diff").expect("Cannot open git_diff"));
         let mut current_file_path = Path::new("").to_owned();
 
