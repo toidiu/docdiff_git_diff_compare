@@ -92,7 +92,7 @@ fn is_interesting_diff(file_path: &Path, line: &str) -> bool {
     interesting &= !(file_path
         .display()
         .to_string()
-        .contains("s2n_quic::provider::tls::rustls::rustls::"));
+        .contains("s2n_quic::provider::tls::rustls::"));
 
     // impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::s2n_tls::client::Builder
     // impl core::panic::unwind_safe::RefUnwindSafe for s2n_quic::provider::tls::s2n_tls::client::Builder
