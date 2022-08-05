@@ -43,7 +43,7 @@ fn is_trivial_diff(file_path: &Path) -> bool {
 
     for line in reader.lines() {
         if let Ok(line) = line.as_ref() {
-            if !is_interesting_diff(line) {
+            if !is_interesting_diff(file_path, line) {
                 continue;
             }
         }
@@ -54,7 +54,7 @@ fn is_trivial_diff(file_path: &Path) -> bool {
     is_trivial
 }
 
-fn is_interesting_diff(line: &str) -> bool {
+fn is_interesting_diff(file_path: &Path, line: &str) -> bool {
     let mut interesting = line.starts_with('-') || line.starts_with('+');
 
     // &'static core::panic::Location<'static>
@@ -71,7 +71,10 @@ fn is_interesting_diff(line: &str) -> bool {
 
     // impl std::panic::RefUnwindSafe for s2n_quic::provider::tls::rustls::rustls::CipherSuite
     // impl core::panic::unwind_safe::UnwindSafe for s2n_quic::provider::tls::rustls::rustls::CipherSuite
-    interesting &= !(line.contains("s2n_quic::provider::tls::rustls::rustls::"));
+    interesting &= !(file_path
+        .display()
+        .to_string()
+        .contains("s2n_quic::provider::tls::rustls::rustls::"));
 
     println!("panic:{} {} {}", !line.contains("panic"), interesting, line,);
     interesting

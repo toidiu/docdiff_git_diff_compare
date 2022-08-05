@@ -1,8 +1,0 @@
-   pub fn tls_bytes_to_write(&self) -> usize
- 
- trait s2n_quic::provider::tls::rustls::rustls::KeyLog exports function:
--  pub fn log(&self, label: &str, client_random: &[u8], secret: &[u8])
-+  fn log(&self, label: &str, client_random: &[u8], secret: &[u8])
- 
- struct s2n_quic::provider::tls::rustls::rustls::KeyLogFile implements trait:
-   impl core::marker::Send for s2n_quic::provider::tls::rustls::rustls::KeyLogFile

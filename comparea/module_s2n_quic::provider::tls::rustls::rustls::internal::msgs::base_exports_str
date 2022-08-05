@@ -1,9 +1,0 @@
- module s2n_quic::provider::tls::rustls::rustls::internal::msgs::base exports struct:
-   s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU8
- 
-+struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::Payload exports field:
-+  0: alloc::vec::Vec<u8, alloc::alloc::Global>
-+
- struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::Payload implements trait:
-   impl core::clone::Clone for s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::Payload
- 
