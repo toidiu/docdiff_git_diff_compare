@@ -1,8 +1,0 @@
- 
- variant s2n_quic::stream::Error::StreamReset exports field:
-   source:
--  &'static core::panic::Location<'static>
-+  &'static core::panic::location::Location<'static>
- 
- enum s2n_quic::stream::LocalStream exports variant:
-   Bidirectional(s2n_quic::stream::BidirectionalStream)

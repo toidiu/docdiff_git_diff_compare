@@ -7,10 +7,9 @@ use glob::glob;
 const BASE_PATH: &str = "comparea";
 
 fn main() {
-    let reader = BufReader::new(File::open("git_diff").expect("Cannot open git_diff"));
-    let base_path = Path::new(BASE_PATH);
-    let mut current_file_path = Path::new("").to_owned();
-
+    // let reader = BufReader::new(File::open("git_diff").expect("Cannot open git_diff"));
+    // let mut current_file_path = Path::new("").to_owned();
+    //
     // seperate diff file into smaller files based
     // let reader = BufReader::new(File::open("git_diff").expect("Cannot open git_diff"));
     // for line in reader.lines() {
@@ -18,6 +17,7 @@ fn main() {
     //     seperate_diff_into_individual_files(line, &mut current_file_path)
     // }
 
+    // filter out trivial diffs
     let glob_path = format!("{}/*", BASE_PATH);
     for file_path in glob(&glob_path).unwrap().filter_map(Result::ok) {
         let is_trivial = is_trivial_diff(&file_path);
@@ -26,6 +26,10 @@ fn main() {
             is_trivial,
             file_path.as_path().display()
         );
+
+        if is_trivial {
+            std::fs::remove_file(file_path).unwrap();
+        }
     }
 }
 
@@ -54,6 +58,7 @@ fn is_interesting_diff(line: &str) -> bool {
     // &'static core::panic::Location<'static>
     // &'static core::panic::location::Location<'static>
     interesting &= !(line.contains("panic::") && line.contains("::Location"));
+
     println!("panic:{} {} {}", !line.contains("panic"), interesting, line,);
     interesting
 }
