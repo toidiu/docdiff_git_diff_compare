@@ -1,4 +1,3 @@
-@@ -13949,19 +15843,27 @@ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::NewSess
    impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::NewSessionTicketExtension
  
  enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::NewSessionTicketExtension implements trait:

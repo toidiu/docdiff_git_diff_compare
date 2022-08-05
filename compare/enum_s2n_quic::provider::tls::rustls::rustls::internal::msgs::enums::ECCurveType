@@ -1,4 +1,3 @@
-@@ -11789,17 +13436,21 @@ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::ECCurveType
    impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::ECCurveType
  
  enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::ECCurveType implements trait:

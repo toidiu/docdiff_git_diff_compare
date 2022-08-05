@@ -1,4 +1,3 @@
-@@ -17578,10 +19575,10 @@ enum s2n_quic::stream::Stream exports variant:
    Send(s2n_quic::stream::SendStream)
  
  enum s2n_quic::stream::Stream implements trait:

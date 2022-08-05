@@ -1,4 +1,3 @@
-@@ -17295,10 +19284,10 @@ enum s2n_quic::stream::PeerStream exports variant:
    Receive(s2n_quic::stream::ReceiveStream)
  
  enum s2n_quic::stream::PeerStream implements trait:

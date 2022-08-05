@@ -1,4 +1,3 @@
-@@ -9093,6 +10681,14 @@ enum s2n_quic::provider::tls::rustls::rustls::SupportedCipherSuite exports funct
  enum s2n_quic::provider::tls::rustls::rustls::SupportedCipherSuite exports function:
    pub fn version(&self) -> &'static s2n_quic::provider::tls::rustls::rustls::SupportedProtocolVersion
  

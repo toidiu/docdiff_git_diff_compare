@@ -1,4 +1,3 @@
-@@ -13928,7 +15822,7 @@ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::KeySh
    pub fn new(group: s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::NamedGroup, payload: &[u8]) -> s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::KeyShareEntry
  
  typedef s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::NamedGroups exports typedef:

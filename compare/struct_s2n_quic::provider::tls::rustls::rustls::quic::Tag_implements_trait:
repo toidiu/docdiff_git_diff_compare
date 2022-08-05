@@ -1,4 +1,3 @@
-@@ -15475,10 +17456,10 @@ struct s2n_quic::provider::tls::rustls::rustls::quic::Tag implements trait:
    impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::quic::Tag
  
  struct s2n_quic::provider::tls::rustls::rustls::quic::Tag implements trait:

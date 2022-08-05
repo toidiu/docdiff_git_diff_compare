@@ -1,4 +1,3 @@
-@@ -4074,13 +5449,13 @@ struct s2n_quic::provider::event::events::PacketLost implements trait:
    impl<'a> core::marker::Unpin for s2n_quic::provider::event::events::PacketLost<'a>
  
  struct s2n_quic::provider::event::events::PacketLost implements trait:

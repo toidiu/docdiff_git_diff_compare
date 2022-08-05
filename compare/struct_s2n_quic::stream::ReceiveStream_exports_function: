@@ -1,4 +1,3 @@
-@@ -17477,15 +19474,15 @@ struct s2n_quic::stream::ReceiveStream exports function:
    pub fn stop_sending(&mut self, error_code: s2n_quic::application::Error) -> s2n_quic::stream::Result<()>
  
  typedef s2n_quic::stream::Result exports typedef:

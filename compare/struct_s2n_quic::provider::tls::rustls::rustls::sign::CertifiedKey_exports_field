@@ -1,4 +1,3 @@
-@@ -15994,10 +17973,10 @@ struct s2n_quic::provider::tls::rustls::rustls::sign::CertifiedKey exports field
    cert: alloc::vec::Vec<s2n_quic::provider::tls::rustls::Certificate, alloc::alloc::Global>
  
  struct s2n_quic::provider::tls::rustls::rustls::sign::CertifiedKey implements trait:

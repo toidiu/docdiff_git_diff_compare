@@ -1,4 +1,3 @@
-@@ -6400,10 +7926,10 @@ module s2n_quic::provider::tls::rustls::client exports struct:
    s2n_quic::provider::tls::rustls::client::Client
  
  struct s2n_quic::provider::tls::rustls::client::Builder implements trait:

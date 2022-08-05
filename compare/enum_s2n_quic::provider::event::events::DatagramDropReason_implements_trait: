@@ -1,4 +1,3 @@
-@@ -2716,10 +3915,10 @@ enum s2n_quic::provider::event::events::DatagramDropReason implements trait:
    impl core::marker::Unpin for s2n_quic::provider::event::events::DatagramDropReason
  
  enum s2n_quic::provider::event::events::DatagramDropReason implements trait:

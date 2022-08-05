@@ -1,4 +1,3 @@
-@@ -2283,13 +3482,13 @@ struct s2n_quic::provider::event::events::ActivePathUpdated implements trait:
    impl<'a> core::marker::Unpin for s2n_quic::provider::event::events::ActivePathUpdated<'a>
  
  struct s2n_quic::provider::event::events::ActivePathUpdated implements trait:

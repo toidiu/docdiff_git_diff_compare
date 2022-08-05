@@ -1,4 +1,3 @@
-@@ -7917,10 +9450,10 @@ struct s2n_quic::provider::tls::rustls::rustls::ClientConfig exports field:
    session_storage: alloc::sync::Arc<dyn s2n_quic::provider::tls::rustls::rustls::client::StoresClientSessions + 'static>
  
  struct s2n_quic::provider::tls::rustls::rustls::ClientConnection implements trait:

@@ -1,4 +1,3 @@
-@@ -15620,10 +17601,10 @@ struct s2n_quic::provider::tls::rustls::rustls::server::AllowAnyAnonymousOrAuthe
    impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::server::AllowAnyAnonymousOrAuthenticatedClient
  
  struct s2n_quic::provider::tls::rustls::rustls::server::AllowAnyAnonymousOrAuthenticatedClient implements trait:

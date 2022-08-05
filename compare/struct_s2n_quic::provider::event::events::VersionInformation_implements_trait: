@@ -1,4 +1,3 @@
-@@ -5156,13 +6656,13 @@ struct s2n_quic::provider::event::events::VersionInformation implements trait:
    impl<'a> core::marker::Unpin for s2n_quic::provider::event::events::VersionInformation<'a>
  
  struct s2n_quic::provider::event::events::VersionInformation implements trait:

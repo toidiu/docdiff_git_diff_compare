@@ -1,4 +1,3 @@
-@@ -460,11 +1583,15 @@ struct s2n_quic::client::Connect exports function:
    pub fn new<Addr>(addr: Addr) -> s2n_quic::client::Connect where
    Addr: core::convert::Into<s2n_quic_core::inet::ip::SocketAddress>,
  

@@ -1,4 +1,3 @@
-@@ -14767,10 +16740,10 @@ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::message::OpaqueM
    impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::internal::msgs::message::OpaqueMessage
  
  struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::message::OpaqueMessage implements trait:

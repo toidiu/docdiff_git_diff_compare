@@ -1,4 +1,3 @@
-@@ -6241,19 +7764,19 @@ struct s2n_quic::provider::tls::rustls::Certificate implements trait:
    impl core::marker::Unpin for s2n_quic::provider::tls::rustls::Certificate
  
  struct s2n_quic::provider::tls::rustls::Certificate implements trait:

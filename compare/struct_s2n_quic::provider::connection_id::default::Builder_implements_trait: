@@ -1,4 +1,3 @@
-@@ -1460,10 +2601,10 @@ struct s2n_quic::provider::connection_id::default::Builder implements trait:
    impl core::marker::Unpin for s2n_quic::provider::connection_id::default::Builder
  
  struct s2n_quic::provider::connection_id::default::Builder implements trait:

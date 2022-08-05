@@ -1,4 +1,3 @@
-@@ -10094,13 +11713,13 @@ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::u24 imple
    impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::u24
  
  struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::u24 implements trait:

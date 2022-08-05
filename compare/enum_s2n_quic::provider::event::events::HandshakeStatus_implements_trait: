@@ -1,4 +1,3 @@
-@@ -3530,10 +4829,10 @@ enum s2n_quic::provider::event::events::HandshakeStatus implements trait:
    impl core::marker::Unpin for s2n_quic::provider::event::events::HandshakeStatus
  
  enum s2n_quic::provider::event::events::HandshakeStatus implements trait:

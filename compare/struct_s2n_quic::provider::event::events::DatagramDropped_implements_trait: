@@ -1,4 +1,3 @@
-@@ -2763,13 +3962,13 @@ struct s2n_quic::provider::event::events::DatagramDropped implements trait:
    impl core::marker::Unpin for s2n_quic::provider::event::events::DatagramDropped
  
  struct s2n_quic::provider::event::events::DatagramDropped implements trait:

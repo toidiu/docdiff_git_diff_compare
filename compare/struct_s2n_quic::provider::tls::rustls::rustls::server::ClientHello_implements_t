@@ -1,4 +1,3 @@
-@@ -15656,10 +17637,10 @@ struct s2n_quic::provider::tls::rustls::rustls::server::ClientHello implements t
    impl<'a> core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::server::ClientHello<'a>
  
  struct s2n_quic::provider::tls::rustls::rustls::server::ClientHello implements trait:

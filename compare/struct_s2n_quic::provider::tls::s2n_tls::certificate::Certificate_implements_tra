@@ -1,4 +1,3 @@
-@@ -16249,19 +18228,19 @@ struct s2n_quic::provider::tls::s2n_tls::certificate::Certificate implements tra
    impl core::marker::Unpin for s2n_quic::provider::tls::s2n_tls::certificate::Certificate
  
  struct s2n_quic::provider::tls::s2n_tls::certificate::Certificate implements trait:

@@ -1,4 +1,3 @@
-@@ -6020,57 +7528,60 @@ module s2n_quic::provider::tls::default::client exports struct:
  module s2n_quic::provider::tls::default::client exports struct:
    s2n_quic::provider::tls::default::client::Client
  

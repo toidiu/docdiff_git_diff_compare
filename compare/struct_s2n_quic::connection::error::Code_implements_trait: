@@ -1,4 +1,3 @@
-@@ -1051,10 +2192,10 @@ struct s2n_quic::connection::error::Code implements trait:
    impl core::marker::Unpin for s2n_quic::connection::error::Code
  
  struct s2n_quic::connection::error::Code implements trait:

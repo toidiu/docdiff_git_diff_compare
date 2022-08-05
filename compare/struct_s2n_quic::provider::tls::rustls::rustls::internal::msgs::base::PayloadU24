@@ -1,4 +1,3 @@
-@@ -9920,17 +11533,20 @@ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU24
    impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU24
  
  struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::PayloadU24 implements trait:

@@ -1,4 +1,3 @@
-@@ -14014,13 +15916,13 @@ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::NewSe
    impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::NewSessionTicketPayloadTLS13
  
  struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::NewSessionTicketPayloadTLS13 implements trait:

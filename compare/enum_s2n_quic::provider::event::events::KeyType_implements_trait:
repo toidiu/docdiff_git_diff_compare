@@ -1,4 +1,3 @@
-@@ -3712,10 +5011,10 @@ enum s2n_quic::provider::event::events::KeyType implements trait:
    impl core::marker::Unpin for s2n_quic::provider::event::events::KeyType
  
  enum s2n_quic::provider::event::events::KeyType implements trait:

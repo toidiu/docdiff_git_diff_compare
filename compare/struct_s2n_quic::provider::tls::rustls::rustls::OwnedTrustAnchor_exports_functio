@@ -1,4 +1,3 @@
-@@ -8535,6 +10104,9 @@ struct s2n_quic::provider::tls::rustls::rustls::OwnedTrustAnchor exports functio
    spki: impl core::convert::Into<alloc::vec::Vec<u8, alloc::alloc::Global>>,
    name_constraints: core::option::Option<impl core::convert::Into<alloc::vec::Vec<u8, alloc::alloc::Global>>>) -> s2n_quic::provider::tls::rustls::rustls::OwnedTrustAnchor
  

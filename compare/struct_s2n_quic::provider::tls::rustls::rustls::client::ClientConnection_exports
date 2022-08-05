@@ -1,4 +1,3 @@
-@@ -9552,10 +11148,10 @@ struct s2n_quic::provider::tls::rustls::rustls::client::ClientConnection exports
    pub fn writer(&mut self) -> s2n_quic::provider::tls::rustls::rustls::Writer<'_>ⓘ
  
  struct s2n_quic::provider::tls::rustls::rustls::client::ClientConnectionData implements trait:

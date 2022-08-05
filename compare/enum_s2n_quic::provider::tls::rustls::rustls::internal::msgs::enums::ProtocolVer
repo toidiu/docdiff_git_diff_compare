@@ -1,4 +1,3 @@
-@@ -12580,6 +14271,10 @@ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::ProtocolVer
  enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::ProtocolVersion exports function:
    pub fn get_u16(&self) -> u16
  

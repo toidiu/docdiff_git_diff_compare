@@ -1,4 +1,3 @@
-@@ -14202,7 +16107,7 @@ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::Rando
    pub fn write_slice(&self, bytes: &mut [u8])
  
  typedef s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::SCTList exports typedef:

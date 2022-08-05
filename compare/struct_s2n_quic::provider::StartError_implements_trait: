@@ -1,4 +1,3 @@
-@@ -1144,10 +2285,10 @@ struct s2n_quic::provider::StartError implements trait:
    impl !core::marker::Sync for s2n_quic::provider::StartError
  
  struct s2n_quic::provider::StartError implements trait:

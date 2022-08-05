@@ -1,4 +1,3 @@
-@@ -14743,6 +16704,18 @@ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::message::MessagePa
    vers: s2n_quic::provider::tls::rustls::rustls::ProtocolVersion,
    payload: s2n_quic::provider::tls::rustls::rustls::internal::msgs::base::Payload) -> core::result::Result<s2n_quic::provider::tls::rustls::rustls::internal::msgs::message::MessagePayload, s2n_quic::provider::tls::rustls::rustls::Error>
  

@@ -1,4 +1,3 @@
-@@ -9701,10 +11305,10 @@ struct s2n_quic::provider::tls::rustls::rustls::client::WantsClientCert implemen
    impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::client::WantsClientCert
  
  struct s2n_quic::provider::tls::rustls::rustls::client::WantsTransparencyPolicyOrClientCert implements trait:

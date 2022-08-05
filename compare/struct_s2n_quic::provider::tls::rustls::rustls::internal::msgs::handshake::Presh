@@ -1,4 +1,3 @@
-@@ -14160,10 +16062,13 @@ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::Presh
    binder: alloc::vec::Vec<u8, alloc::alloc::Global>) -> s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::PresharedKeyOffer
  
  typedef s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::ProtocolNameList exports typedef:

@@ -1,4 +1,3 @@
-@@ -6657,10 +8183,13 @@ enum s2n_quic::provider::tls::rustls::rustls::BulkAlgorithm implements trait:
    impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::BulkAlgorithm
  
  enum s2n_quic::provider::tls::rustls::rustls::BulkAlgorithm implements trait:

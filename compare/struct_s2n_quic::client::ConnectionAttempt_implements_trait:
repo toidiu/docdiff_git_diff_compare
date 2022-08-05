@@ -1,4 +1,3 @@
-@@ -479,10 +1606,10 @@ struct s2n_quic::client::ConnectionAttempt implements trait:
    impl core::marker::Unpin for s2n_quic::client::ConnectionAttempt
  
  struct s2n_quic::client::DefaultProviders implements trait:

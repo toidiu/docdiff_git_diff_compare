@@ -1,4 +1,3 @@
-@@ -14510,10 +16471,10 @@ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::Sessi
    pub fn random() -> core::result::Result<s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::SessionID, GetRandomFailed>
  
  trait s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::SupportedPointFormats exports function:

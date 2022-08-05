@@ -1,4 +1,3 @@
-@@ -11834,17 +13485,21 @@ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::ECPointForm
    impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::ECPointFormat
  
  enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::ECPointFormat implements trait:

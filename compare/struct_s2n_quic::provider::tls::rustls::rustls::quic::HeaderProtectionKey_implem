@@ -1,4 +1,3 @@
-@@ -15282,10 +17263,10 @@ struct s2n_quic::provider::tls::rustls::rustls::quic::HeaderProtectionKey implem
    impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::quic::HeaderProtectionKey
  
  struct s2n_quic::provider::tls::rustls::rustls::quic::HeaderProtectionKey implements trait:

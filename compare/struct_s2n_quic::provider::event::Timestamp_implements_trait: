@@ -1,4 +1,3 @@
-@@ -1903,10 +3043,10 @@ struct s2n_quic::provider::event::Timestamp implements trait:
    impl core::marker::Unpin for s2n_quic::provider::event::Timestamp
  
  struct s2n_quic::provider::event::Timestamp implements trait:

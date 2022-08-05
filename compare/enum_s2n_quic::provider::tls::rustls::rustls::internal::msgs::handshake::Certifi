@@ -1,4 +1,3 @@
-@@ -13279,19 +15013,27 @@ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::Certifi
    impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertificateStatusRequest
  
  enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertificateStatusRequest implements trait:

@@ -1,4 +1,3 @@
-@@ -12176,17 +13843,21 @@ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::HeartbeatMe
    impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::HeartbeatMessageType
  
  enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::HeartbeatMessageType implements trait:

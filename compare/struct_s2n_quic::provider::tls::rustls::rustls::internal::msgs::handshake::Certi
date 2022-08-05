@@ -1,4 +1,3 @@
-@@ -13240,13 +14974,13 @@ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::Certi
    impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertificateStatus
  
  struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertificateStatus implements trait:

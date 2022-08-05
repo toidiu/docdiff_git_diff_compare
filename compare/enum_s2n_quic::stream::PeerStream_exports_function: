@@ -1,4 +1,3 @@
-@@ -17412,11 +19401,19 @@ enum s2n_quic::stream::PeerStream exports function:
  enum s2n_quic::stream::PeerStream exports function:
    pub fn stop_sending(&mut self, error_code: s2n_quic::application::Error) -> s2n_quic::stream::Result<()>
  

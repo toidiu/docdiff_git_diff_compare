@@ -1,4 +1,3 @@
-@@ -5121,13 +6621,13 @@ struct s2n_quic::provider::event::events::TxStreamProgress implements trait:
    impl core::marker::Unpin for s2n_quic::provider::event::events::TxStreamProgress
  
  struct s2n_quic::provider::event::events::TxStreamProgress implements trait:

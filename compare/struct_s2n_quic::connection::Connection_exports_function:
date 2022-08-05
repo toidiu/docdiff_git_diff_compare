@@ -1,4 +1,3 @@
-@@ -596,6 +1723,13 @@ struct s2n_quic::connection::Connection exports function:
  struct s2n_quic::connection::Connection exports function:
    pub fn close(&self, error_code: s2n_quic::application::Error)
  

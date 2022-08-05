@@ -1,4 +1,3 @@
-@@ -11693,17 +13332,21 @@ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::Compression
    impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::Compression
  
  enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::Compression implements trait:

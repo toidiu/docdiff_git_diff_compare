@@ -1,4 +1,3 @@
-@@ -15072,10 +17053,10 @@ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::persist::Tls12Cl
    common: s2n_quic::provider::tls::rustls::rustls::internal::msgs::persist::ClientSessionCommon
  
  struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::persist::Tls12ClientSessionValue implements trait:

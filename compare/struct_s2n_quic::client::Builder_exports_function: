@@ -1,4 +1,3 @@
-@@ -387,10 +1515,10 @@ struct s2n_quic::client::Builder exports function:
    Self: With<T::s2n_quic::provider::tls::TryInto::Provider, Output = s2n_quic::client::Builder<U>>,
  
  struct s2n_quic::client::Client implements trait:

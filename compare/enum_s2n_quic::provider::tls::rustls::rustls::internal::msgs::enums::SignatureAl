@@ -1,4 +1,3 @@
-@@ -12662,17 +14361,21 @@ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::SignatureAl
    impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::SignatureAlgorithm
  
  enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::SignatureAlgorithm implements trait:

@@ -1,4 +1,3 @@
-@@ -2833,13 +4032,13 @@ struct s2n_quic::provider::event::events::DatagramSent implements trait:
    impl core::marker::Unpin for s2n_quic::provider::event::events::DatagramSent
  
  struct s2n_quic::provider::event::events::DatagramSent implements trait:

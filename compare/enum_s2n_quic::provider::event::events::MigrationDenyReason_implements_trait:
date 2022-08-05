@@ -1,4 +1,3 @@
-@@ -3794,10 +5093,10 @@ enum s2n_quic::provider::event::events::MigrationDenyReason implements trait:
    impl core::marker::Unpin for s2n_quic::provider::event::events::MigrationDenyReason
  
  enum s2n_quic::provider::event::events::MigrationDenyReason implements trait:

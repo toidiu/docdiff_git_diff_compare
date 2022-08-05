@@ -1,4 +1,3 @@
-@@ -15734,21 +17715,19 @@ struct s2n_quic::provider::tls::rustls::rustls::server::ReadEarlyData implements
    impl<'a> core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::server::ReadEarlyData<'a>
  
  struct s2n_quic::provider::tls::rustls::rustls::server::ReadEarlyData implements trait:

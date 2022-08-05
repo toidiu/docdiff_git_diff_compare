@@ -1,4 +1,3 @@
-@@ -1667,10 +2808,10 @@ struct s2n_quic::provider::endpoint_limits::default::Builder implements trait:
    impl core::marker::Unpin for s2n_quic::provider::endpoint_limits::default::Builder
  
  struct s2n_quic::provider::endpoint_limits::default::Builder implements trait:

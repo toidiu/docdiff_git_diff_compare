@@ -1,4 +1,3 @@
-@@ -4782,17 +6201,98 @@ struct s2n_quic::provider::event::events::ServerNameInformation implements trait
    impl<'a> core::marker::Unpin for s2n_quic::provider::event::events::ServerNameInformation<'a>
  
  struct s2n_quic::provider::event::events::ServerNameInformation implements trait:

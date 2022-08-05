@@ -1,4 +1,3 @@
-@@ -15814,16 +17793,16 @@ struct s2n_quic::provider::tls::rustls::rustls::server::ServerConfig exports fie
    send_half_rtt_data: bool
  
  struct s2n_quic::provider::tls::rustls::rustls::server::ServerConfig exports field:

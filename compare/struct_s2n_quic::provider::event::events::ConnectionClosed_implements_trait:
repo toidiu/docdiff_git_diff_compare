@@ -1,4 +1,3 @@
-@@ -2464,13 +3663,13 @@ struct s2n_quic::provider::event::events::ConnectionClosed implements trait:
    impl core::marker::Unpin for s2n_quic::provider::event::events::ConnectionClosed
  
  struct s2n_quic::provider::event::events::ConnectionClosed implements trait:

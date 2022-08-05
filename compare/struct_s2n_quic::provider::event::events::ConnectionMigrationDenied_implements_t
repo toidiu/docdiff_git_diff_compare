@@ -1,4 +1,3 @@
-@@ -2616,13 +3815,13 @@ struct s2n_quic::provider::event::events::ConnectionMigrationDenied implements t
    impl core::marker::Unpin for s2n_quic::provider::event::events::ConnectionMigrationDenied
  
  struct s2n_quic::provider::event::events::ConnectionMigrationDenied implements trait:

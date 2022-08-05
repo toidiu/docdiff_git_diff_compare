@@ -1,4 +1,3 @@
-@@ -2318,13 +3517,13 @@ struct s2n_quic::provider::event::events::ApplicationProtocolInformation impleme
    impl<'a> core::marker::Unpin for s2n_quic::provider::event::events::ApplicationProtocolInformation<'a>
  
  struct s2n_quic::provider::event::events::ApplicationProtocolInformation implements trait:

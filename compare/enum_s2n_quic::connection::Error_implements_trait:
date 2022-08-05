@@ -1,4 +1,3 @@
-@@ -731,25 +1865,25 @@ enum s2n_quic::connection::Error implements trait:
    impl core::marker::Unpin for s2n_quic::connection::Error
  
  enum s2n_quic::connection::Error implements trait:

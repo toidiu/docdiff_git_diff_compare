@@ -1,4 +1,3 @@
-@@ -14543,16 +16504,16 @@ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::Unkno
    typ: s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::ExtensionType
  
  typedef s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::VecU16OfPayloadU16 exports typedef:

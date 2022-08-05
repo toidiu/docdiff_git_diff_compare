@@ -1,4 +1,3 @@
-@@ -15584,10 +17565,10 @@ struct s2n_quic::provider::tls::rustls::rustls::server::Accepted exports functio
    config: alloc::sync::Arc<s2n_quic::provider::tls::rustls::rustls::ServerConfig>) -> core::result::Result<s2n_quic::provider::tls::rustls::rustls::ServerConnection, s2n_quic::provider::tls::rustls::rustls::Error>
  
  struct s2n_quic::provider::tls::rustls::rustls::server::Acceptor implements trait:

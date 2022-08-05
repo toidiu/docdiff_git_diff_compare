@@ -1,4 +1,3 @@
-@@ -5282,18 +6793,6 @@ struct s2n_quic::provider::event::query::Once implements trait:
    EventContext: 'static,
    F: core::ops::function::FnOnce(&mut EventContext) -> Outcome,
  

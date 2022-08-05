@@ -1,4 +1,3 @@
-@@ -3561,13 +4860,13 @@ struct s2n_quic::provider::event::events::HandshakeStatusUpdated implements trai
    impl core::marker::Unpin for s2n_quic::provider::event::events::HandshakeStatusUpdated
  
  struct s2n_quic::provider::event::events::HandshakeStatusUpdated implements trait:

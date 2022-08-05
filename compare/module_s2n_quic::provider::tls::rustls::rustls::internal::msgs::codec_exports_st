@@ -1,4 +1,3 @@
-@@ -10037,10 +11653,10 @@ module s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec exports st
    s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::u24
  
  trait s2n_quic::provider::tls::rustls::rustls::internal::msgs::codec::Codec exports function:

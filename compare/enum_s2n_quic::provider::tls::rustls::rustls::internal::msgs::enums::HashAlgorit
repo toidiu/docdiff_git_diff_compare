@@ -1,4 +1,3 @@
-@@ -12134,17 +13797,21 @@ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::HashAlgorit
    impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::HashAlgorithm
  
  enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::HashAlgorithm implements trait:

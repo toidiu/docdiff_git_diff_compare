@@ -1,4 +1,3 @@
-@@ -15501,10 +17482,10 @@ enum s2n_quic::provider::tls::rustls::rustls::quic::Version implements trait:
    impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::quic::Version
  
  enum s2n_quic::provider::tls::rustls::rustls::quic::Version implements trait:

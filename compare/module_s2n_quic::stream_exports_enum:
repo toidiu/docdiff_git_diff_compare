@@ -1,4 +1,3 @@
-@@ -16912,10 +18893,10 @@ module s2n_quic::stream exports enum:
    s2n_quic::stream::Type
  
  struct s2n_quic::stream::BidirectionalStream implements trait:

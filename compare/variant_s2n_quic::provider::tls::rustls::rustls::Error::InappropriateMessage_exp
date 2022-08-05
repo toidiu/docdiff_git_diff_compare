@@ -1,4 +1,3 @@
-@@ -8436,6 +9989,22 @@ variant s2n_quic::provider::tls::rustls::rustls::Error::InappropriateMessage exp
    got_type:
    s2n_quic::provider::tls::rustls::rustls::internal::msgs::enums::ContentType
  

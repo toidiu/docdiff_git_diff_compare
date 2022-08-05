@@ -1,4 +1,3 @@
-@@ -554,10 +1681,10 @@ struct s2n_quic::connection::BidirectionalStreamAcceptor exports function:
    cx: &mut core::task::wake::Context<'_>) -> core::task::poll::Poll<s2n_quic::connection::Result<core::option::Option<s2n_quic::stream::BidirectionalStream>>>
  
  struct s2n_quic::connection::Connection implements trait:

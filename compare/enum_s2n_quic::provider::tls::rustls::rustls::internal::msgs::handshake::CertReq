@@ -1,4 +1,3 @@
-@@ -13009,19 +14719,31 @@ enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertReq
    impl core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertReqExtension
  
  enum s2n_quic::provider::tls::rustls::rustls::internal::msgs::handshake::CertReqExtension implements trait:

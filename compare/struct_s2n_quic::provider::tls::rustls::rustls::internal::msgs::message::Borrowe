@@ -1,4 +1,3 @@
-@@ -14612,10 +16573,10 @@ struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::message::Borrowe
    impl<'a> core::marker::Unpin for s2n_quic::provider::tls::rustls::rustls::internal::msgs::message::BorrowedPlainMessage<'a>
  
  struct s2n_quic::provider::tls::rustls::rustls::internal::msgs::message::BorrowedPlainMessage implements trait:

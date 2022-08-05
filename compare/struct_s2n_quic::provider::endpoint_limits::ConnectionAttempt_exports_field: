@@ -1,4 +1,3 @@
-@@ -1582,7 +2723,7 @@ struct s2n_quic::provider::endpoint_limits::ConnectionAttempt exports field:
    timestamp: s2n_quic::provider::event::Timestamp
  
  trait s2n_quic::provider::endpoint_limits::Limiter exports function:

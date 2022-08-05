@@ -1,4 +1,3 @@
-@@ -2587,13 +3786,13 @@ struct s2n_quic::provider::event::events::ConnectionMeta implements trait:
    impl core::marker::Unpin for s2n_quic::provider::event::ConnectionMeta
  
  struct s2n_quic::provider::event::events::ConnectionMeta implements trait:
